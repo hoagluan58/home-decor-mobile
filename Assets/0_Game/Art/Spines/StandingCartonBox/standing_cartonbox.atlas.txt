@@ -1,0 +1,58 @@
+standing_cartonbox.png
+size:1243,1243
+filter:Linear,Linear
+pma:true
+Layer 1
+bounds:437,6,144,89
+Layer 2
+bounds:1049,283,105,67
+cap_1
+bounds:461,97,333,195
+cap_2
+bounds:853,282,331,194
+rotate:90
+cap_3
+bounds:1049,433,274,161
+rotate:90
+cap_4
+bounds:1049,433,274,161
+rotate:90
+cartonbox_back
+bounds:2,614,425,627
+cartonbox_front
+bounds:429,615,426,626
+foam
+bounds:461,294,390,319
+rope_1
+bounds:583,2,143,93
+rope_2
+bounds:1181,741,21,500
+rope_2 copy
+bounds:1204,748,21,493
+rope_3
+bounds:1049,352,124,79
+rope_4
+bounds:1155,740,24,501
+rope_4 back
+bounds:1131,738,22,503
+wood_1 copy
+bounds:796,98,288,182
+wood_4 copy
+bounds:796,98,288,182
+wood_2 copy
+bounds:190,13,245,157
+wood_3 copy
+bounds:190,13,245,157
+wood_5 copy
+bounds:1071,711,58,530
+wood_6 copy
+bounds:1071,711,58,530
+wood_7 copy
+bounds:2,13,186,599
+wood_8 copy
+bounds:857,669,152,572
+wood_9 copy
+bounds:1011,709,58,532
+wood_bottom
+bounds:190,172,440,269
+rotate:90

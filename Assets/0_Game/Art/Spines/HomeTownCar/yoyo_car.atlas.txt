@@ -1,0 +1,54 @@
+yoyo_car.png
+size:1274,1274
+filter:Linear,Linear
+pma:true
+back wheel 1
+bounds:1021,629,131,147
+front wheel 1
+bounds:1021,629,131,147
+back wheel 2
+bounds:698,490,131,147
+rotate:90
+front wheel 2
+bounds:698,490,131,147
+rotate:90
+back wheel 3
+bounds:847,490,131,147
+rotate:90
+front wheel 3
+bounds:847,490,131,147
+rotate:90
+camping_car/back wheel 1
+bounds:613,623,134,153
+camping_car/front wheel 1
+bounds:613,623,134,153
+camping_car/back wheel 2
+bounds:749,623,134,153
+camping_car/front wheel 2
+bounds:749,623,134,153
+camping_car/back wheel 3
+bounds:885,623,134,153
+camping_car/front wheel 3
+bounds:885,623,134,153
+camping_car/car
+bounds:2,500,609,772
+car
+bounds:613,778,659,494
+red_car/car
+bounds:2,4,659,494
+smoke car 1
+bounds:1236,751,25,25
+smoke car 2
+bounds:663,360,58,55
+smoke car 3
+bounds:1154,701,80,75
+smoke car 4
+bounds:613,545,83,76
+smoke car 5
+bounds:1154,629,81,70
+smoke car 6
+bounds:663,417,75,71
+smoke car 7
+bounds:740,437,48,51
+smoke car 8
+bounds:613,503,29,40

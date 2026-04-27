@@ -1,0 +1,29 @@
+    public enum ESound {
+        Click,
+        Rotate,
+        Drop,
+        Error,
+        Remove,
+        PickUp,
+        AdsItem,
+        Complete,
+        DropBox,
+        Notice,
+        Release,
+        Whoosh,
+        ReachStar,
+        Select,
+        Currency,
+        CarHorn,
+        Unbox_1,
+        Unbox_2,
+        Unbox_3,
+        Unbox_4,
+        Unbox_5,
+        Sparkling,
+        Hammer
+    }
+    public enum EMusic {
+        BackgroundMusic,
+        BackgroundDecor
+    }

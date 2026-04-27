@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d2e50d8814da5b5c0547f1d5a8ec8, type: 3}
+  m_Name: Fur_mr_sidebed_1
+  m_EditorClassIdentifier: 
+  Config:
+    Id: mr_sidebed_1
+    Size: {x: 2, y: 2, z: 2}
+    FurnitureName: Sidebed
+    Sprite: {fileID: 21300000, guid: 4a53e27e09ba86c4f9c0ce66ca2efc0c, type: 3}
+    Category: 3
+    SubCategory: 9
+    Concept: 2
+    UnlockType: 0
+    Price: 0
+    TrashType: 0
+    FurnitureMoveType: 0
+    CanPlaceOnOthers: 0
+    CanBePlaceOn: 1
+    SurfaceSize: {x: 2, y: 2, z: 0}
+    SurfaceOffset: {x: 0, y: 0, z: 2}
+    BaseDirection: 1
+    CanFlip: 1
+    IsAutoFlip: 0
+    IsCarpet: 0
+    IsSpecial: 0
+    IsMessy: 1
+    Prefab: {fileID: 8276681137668832050, guid: adac85653d636cc4e8016ec71baca09e, type: 3}
+    SizeString: 2,2,2
+    SurfaceSizeString: 2,2,0
+    SurfaceOffsetString: 0,0,2

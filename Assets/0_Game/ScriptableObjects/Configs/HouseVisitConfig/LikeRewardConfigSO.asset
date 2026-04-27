@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6932facf2d43f2d43beabec893fb0125, type: 3}
+  m_Name: LikeRewardConfigSO
+  m_EditorClassIdentifier: 
+  _sheetId: 1e-PdzQ2OUc3DB8J-O1xswKPE-g_GgxHHVZOO1FJ8BAc
+  _gridId: 1063048455
+  _tsvCachePath: 
+  _jsonCachePath: 
+  _datas:
+  - Id: 1
+    Like: 50
+    PositionOnBar: 0.16666667
+    Reward:
+      type: 1
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 1a6cf766423a9f54c80a62342c9c77f9, type: 3}
+      amount: 20
+    RewardString: Currency-Diamond-20
+  - Id: 2
+    Like: 100
+    PositionOnBar: 0.33333334
+    Reward:
+      type: 1
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 1a6cf766423a9f54c80a62342c9c77f9, type: 3}
+      amount: 40
+    RewardString: Currency-Diamond-40
+  - Id: 3
+    Like: 150
+    PositionOnBar: 0.5
+    Reward:
+      type: 1
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 1a6cf766423a9f54c80a62342c9c77f9, type: 3}
+      amount: 80
+    RewardString: Currency-Diamond-80
+  - Id: 4
+    Like: 200
+    PositionOnBar: 0.6666667
+    Reward:
+      type: 1
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 1a6cf766423a9f54c80a62342c9c77f9, type: 3}
+      amount: 120
+    RewardString: Currency-Diamond-120
+  - Id: 5
+    Like: 300
+    PositionOnBar: 1
+    Reward:
+      type: 1
+      currencyType: 0
+      icon: {fileID: 21300000, guid: 1a6cf766423a9f54c80a62342c9c77f9, type: 3}
+      amount: 300
+    RewardString: Currency-Diamond-300

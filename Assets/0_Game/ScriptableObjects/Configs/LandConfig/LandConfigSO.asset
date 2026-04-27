@@ -1,0 +1,2885 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c4eb0cd690faa448da8f08bbbec679, type: 3}
+  m_Name: LandConfigSO
+  m_EditorClassIdentifier: 
+  _sheetId: 1FFNWYenJ-PHxAf3XlIb0OtElVBXb7EVg3TnW0sxBU3Q
+  _gridId: 1252668480
+  _tsvCachePath: 
+  _jsonCachePath: 
+  _datas:
+  - Id: 0
+    Position: {x: -60, y: -50, z: 0}
+    DefaultWallId: lr1_wall_2
+    DefaultFloorId: lr1_ground_1
+    NearbyLandList: 010000000200000003000000
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 0000000005000000040000000100000007000000
+      _keys: 0000000005000000040000000100000007000000
+      _values: 0200000001000000030000000400000005000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 69fbec4a
+        ConfigId: lr2_sofa_1
+        Position: {x: 11, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 59c80030
+        ConfigId: lr3_sofa_1
+        Position: {x: 11, y: 5, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7d686326
+        ConfigId: lr1_sofa_1
+        Position: {x: 11, y: 5, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 5e1ffe30
+        ConfigId: lr2_window_1
+        Position: {x: 2, y: 13, z: 1}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5773431a
+        ConfigId: lr3_window_1
+        Position: {x: 5, y: 13, z: 5}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 68ae0b05
+        ConfigId: lr1_window_1
+        Position: {x: 2, y: 13, z: 1}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 7339df5c
+        ConfigId: lr2_picture_1
+        Position: {x: 13, y: 7, z: 4}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 4a29fbb
+        ConfigId: btr1_mirror_1
+        Position: {x: 13, y: 7, z: 5}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 600a8e19
+        ConfigId: lr1_picture_1
+        Position: {x: 13, y: 7, z: 5}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 7f6d1f48
+        ConfigId: lr2_cabinet_1
+        Position: {x: 12, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 506ce06e
+        ConfigId: br3_bside_1
+        Position: {x: 12, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 47413005
+        ConfigId: lr1_cabinet_1
+        Position: {x: 12, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 5a201ea0
+        ConfigId: lr2_lamp_1
+        Position: {x: 0, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5567a8f8
+        ConfigId: br3_lamp_1
+        Position: {x: 0, y: 12, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 62369877
+        ConfigId: lr1_lamp_1
+        Position: {x: 0, y: 12, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 750e5322
+        ConfigId: lr2_teatable_1
+        Position: {x: 6, y: 6, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: f087151
+        ConfigId: kr1_table_1
+        Position: {x: 6, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 34ca83e3
+        ConfigId: lr1_table_1
+        Position: {x: 6, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 257007dc
+        ConfigId: lr2_television_1
+        Position: {x: 0, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 58ff1cb
+        ConfigId: lr3_television_1
+        Position: {x: 0, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 156e3d7
+        ConfigId: lr1_television_1
+        Position: {x: 0, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    DecorFurnitureData:
+    - Id: 47a4c745
+      ConfigId: lr1_chair_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 15d89b23
+      ConfigId: lr2_television_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 478cbfc9
+      ConfigId: lr1_carpet_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 46af3b13
+      ConfigId: lr3_air_conditioner_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 179c5bde
+      ConfigId: lr1_pillow_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: b909448
+      ConfigId: lr1_plant_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 6270592
+      ConfigId: lr1_picture_3
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 391fab9b
+      ConfigId: lr1_mirror_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 04000000040000000500000005000000020000000500000004000000
+    AdditionSortingValue: 0
+    SubtractionSortingValue: 30
+    PositionString: -60,-50,0
+    NearbyLandListString: 1,2,3
+    LandNavigationString: Up-2 UpRight-1 UpLeft-3 Down-4 DownRight-5
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: lr2_sofa_1|11,6,0|Right;lr3_sofa_1|11,5,0|Right;lr1_sofa_1|11,5,0|Right
+      lr2_window_1|2,13,1|Left;lr3_window_1|5,13,5|Left;lr1_window_1|2,13,1|Left
+      lr2_picture_1|13,7,4|Right;btr1_mirror_1|13,7,5|Right;lr1_picture_1|13,7,5|Right
+      lr2_cabinet_1|12,2,0|Right;br3_bside_1|12,2,0|Right;lr1_cabinet_1|12,2,0|Right
+      lr2_lamp_1|0,12,0|Left;br3_lamp_1|0,12,0|Right;lr1_lamp_1|0,12,0|Right lr2_teatable_1|6,6,0|Left;kr1_table_1|6,6,0|Right;lr1_table_1|6,6,0|Right
+      lr2_television_1|0,4,0|Right;lr3_television_1|0,4,0|Right;lr1_television_1|0,4,0|Right
+    UnlockFurnitureOptionPriceString: 50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150 50;100;150
+    UnlockFurnitureStarPriceString: 4,4,5,5,2,5,4
+    DecorDataOptionString: lr1_chair_1||Left lr2_television_1||Right lr1_carpet_1||Left
+      lr3_air_conditioner_1||Right lr1_pillow_1||Right lr1_plant_1||Right lr1_picture_3||Right
+      lr1_mirror_1||Right
+  - Id: 1
+    Position: {x: -46, y: -36, z: 0}
+    DefaultWallId: btr1_wall_1
+    DefaultFloorId: btr1_ground_1
+    NearbyLandList: 000000000200000003000000
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 060000000400000002000000070000000500000003000000
+      _keys: 060000000400000002000000070000000500000003000000
+      _values: 000000000200000003000000050000000900000006000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 61fad65f
+        ConfigId: btr2_bathroom_1
+        Position: {x: 12, y: 7, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 6757f12f
+        ConfigId: btr3_bathtub_1
+        Position: {x: 11, y: 7, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 4a6ba6a1
+        ConfigId: btr1_bathtub_1
+        Position: {x: 11, y: 7, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: e904d9c
+        ConfigId: btr2_shelve_1
+        Position: {x: 4, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 14e60706
+        ConfigId: btr3_sink_1
+        Position: {x: 4, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 2e7c8885
+        ConfigId: btr1_sink_1
+        Position: {x: 4, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 1fee8f0b
+        ConfigId: btr2_carpet_1
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 26ea3cc1
+        ConfigId: btr3_carpet_1
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 22f409c9
+        ConfigId: btr1_carpet_1
+        Position: {x: 4, y: 5, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 1e358efc
+        ConfigId: btr2_tree_1
+        Position: {x: 2, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 72674
+        ConfigId: btr3_plant_1
+        Position: {x: 2, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 79d165d6
+        ConfigId: btr1_plant_1
+        Position: {x: 2, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 58c12737
+        ConfigId: btr2_beartable_1
+        Position: {x: 12, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7bbe46c8
+        ConfigId: btr3_washingmachine_1
+        Position: {x: 12, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5aab395
+        ConfigId: btr1_washingmachine_1
+        Position: {x: 12, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 79c1564c
+        ConfigId: btr2_hangedshelve_1
+        Position: {x: 13, y: 4, z: 6}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 407d7ef4
+        ConfigId: btr3_wallcabinet_1
+        Position: {x: 13, y: 3, z: 6}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 220bb6a0
+        ConfigId: btr1_cabinets_1
+        Position: {x: 13, y: 4, z: 5}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    DecorFurnitureData:
+    - Id: 47deee3e
+      ConfigId: btr1_wallshelf_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: d043b74
+      ConfigId: btr1_towelhanger_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 73968acc
+      ConfigId: btr1_slippers_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 28bc6ccf
+      ConfigId: btr1_showerhead_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 56404a76
+      ConfigId: btr1_mirror_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 2890162c
+      ConfigId: btr1_liquid_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 394bd48c
+      ConfigId: btr1_hairdryer_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 7b101c9b
+      ConfigId: btr1_cosmetics_4
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 22572505
+      ConfigId: btr1_cosmetics_3
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 43ef650d
+      ConfigId: btr1_cosmetics_2
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 35dba35d
+      ConfigId: btr1_cosmetics_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 1770c31d
+      ConfigId: btr1_chair_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 3fd6e73c
+      ConfigId: btr1_basket_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 050000000200000004000000030000000400000003000000
+    AdditionSortingValue: 0
+    SubtractionSortingValue: -10
+    PositionString: -46,-36,0
+    NearbyLandListString: 0,2,3
+    LandNavigationString: DownLeft-0 UpLeft-2 Left-3 DownRight-5 UpRight-9 Right-6
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: btr2_bathroom_1|12,7,0|Right;btr3_bathtub_1|11,7,0|Right;btr1_bathtub_1|11,7,0|Right
+      btr2_shelve_1|4,12,0|Left;btr3_sink_1|4,11,0|Left;btr1_sink_1|4,12,0|Left btr2_carpet_1|4,4,0|Right;btr3_carpet_1|4,4,0|Right;btr1_carpet_1|4,5,0|Right
+      btr2_tree_1|2,12,0|Left;btr3_plant_1|2,12,0|Left;btr1_plant_1|2,12,0|Left btr2_beartable_1|12,2,0|Right;btr3_washingmachine_1|12,2,0|Right;btr1_washingmachine_1|12,2,0|Right
+      btr2_hangedshelve_1|13,4,6|Right;btr3_wallcabinet_1|13,3,6|Right;btr1_cabinets_1|13,4,5|Right
+    UnlockFurnitureOptionPriceString: 50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150
+    UnlockFurnitureStarPriceString: 5,2,4,3,4,3
+    DecorDataOptionString: btr1_wallshelf_1||Left btr1_towelhanger_1||Left btr1_slippers_1||Left
+      btr1_showerhead_1||Left btr1_mirror_1||Left btr1_liquid_1||Right btr1_hairdryer_1||Left
+      btr1_cosmetics_4||Left btr1_cosmetics_3||Left btr1_cosmetics_2||Left btr1_cosmetics_1||Left
+      btr1_chair_1||Left btr1_basket_1||Right
+  - Id: 2
+    Position: {x: -60, y: -22, z: 0}
+    DefaultWallId: br2_wall_2
+    DefaultFloorId: br2_ground_1
+    NearbyLandList: 000000000100000003000000
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 070000000100000006000000040000000500000000000000
+      _keys: 070000000100000006000000040000000500000000000000
+      _values: 0100000000000000030000000b000000090000000a000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 5d1d76bd
+        ConfigId: br1_shelf_1
+        Position: {x: 10, y: 13, z: 6}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 6d12d9ca
+        ConfigId: br3_shelf_1
+        Position: {x: 10, y: 13, z: 6}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 4b82f41f
+        ConfigId: br2_shelf_1
+        Position: {x: 10, y: 13, z: 6}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 7e0fb7b9
+        ConfigId: br1_shelf_1
+        Position: {x: 7, y: 13, z: 5}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 18152e19
+        ConfigId: br3_shelf_1
+        Position: {x: 7, y: 13, z: 5}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 60139cd
+        ConfigId: br2_shelf_1
+        Position: {x: 7, y: 13, z: 5}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 38b0e269
+        ConfigId: br1_win_1
+        Position: {x: 2, y: 13, z: 5}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 453a179a
+        ConfigId: br3_win_1
+        Position: {x: 1, y: 13, z: 6}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 26eb2073
+        ConfigId: br2_win_1
+        Position: {x: 2, y: 13, z: 3}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 4248096c
+        ConfigId: br1_win_1
+        Position: {x: 12, y: 5, z: 6}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 4e241661
+        ConfigId: br3_win_1
+        Position: {x: 13, y: 6, z: 5}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 6c146787
+        ConfigId: br2_win_1
+        Position: {x: 13, y: 6, z: 3}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 1694f4e7
+        ConfigId: br1_bed_1
+        Position: {x: 10, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 2568e168
+        ConfigId: br3_bed_1
+        Position: {x: 9, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: bbe8bf4
+        ConfigId: br2_bed_1
+        Position: {x: 9, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 2895bc9f
+        ConfigId: br1_sidebed_1
+        Position: {x: 4, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 4be6807c
+        ConfigId: br3_bside_1
+        Position: {x: 4, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 102de78e
+        ConfigId: br2_bside_1
+        Position: {x: 4, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 4dcb697c
+        ConfigId: br1_bookcase_1
+        Position: {x: 12, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 631bc1f
+        ConfigId: br3_wardrobe_1
+        Position: {x: 12, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7590a53d
+        ConfigId: br2_bside_2
+        Position: {x: 12, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    DecorFurnitureData:
+    - Id: 43b1a609
+      ConfigId: br3_lamp_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 7922ca1d
+      ConfigId: br3_pillow_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 458920ce
+      ConfigId: br3_plant_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 393e6990
+      ConfigId: br3_tissuebox_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 1117a6b9
+      ConfigId: br2_book_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 04000000020000000500000003000000050000000300000004000000
+    AdditionSortingValue: 50
+    SubtractionSortingValue: -35
+    PositionString: -60,-22,0
+    NearbyLandListString: 0,1,3
+    LandNavigationString: DownRight-1 Down-0 DownLeft-3 UpLeft-11 UpRight-9 Up-10
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: br1_shelf_1|10,13,6|Left;br3_shelf_1|10,13,6|Left;br2_shelf_1|10,13,6|Left
+      br1_shelf_1|7,13,5|Left;br3_shelf_1|7,13,5|Left;br2_shelf_1|7,13,5|Left br1_win_1|2,13,5|Left;br3_win_1|1,13,6|Left;br2_win_1|2,13,3|Left
+      br1_win_1|12,5,6|Right;br3_win_1|13,6,5|Right;br2_win_1|13,6,3|Right br1_bed_1|10,6,0|Right;br3_bed_1|9,6,0|Right;br2_bed_1|9,6,0|Right
+      br1_sidebed_1|4,12,0|Left;br3_bside_1|4,12,0|Left;br2_bside_1|4,12,0|Left br1_bookcase_1|12,2,0|Right;br3_wardrobe_1|12,2,0|Right;br2_bside_2|12,2,0|Right
+    UnlockFurnitureOptionPriceString: 50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150 50;100;150
+    UnlockFurnitureStarPriceString: 4,2,5,3,5,3,4
+    DecorDataOptionString: br3_lamp_1||Right br3_pillow_1||Left br3_plant_1||Left
+      br3_tissuebox_1||Left br2_book_1||Left
+  - Id: 3
+    Position: {x: -74, y: -36, z: 0}
+    DefaultWallId: kr1_wall_1
+    DefaultFloorId: kr1_ground_1
+    NearbyLandList: 000000000100000002000000
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 050000000300000007000000
+      _keys: 050000000300000007000000
+      _values: 020000000100000000000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 21db9075
+        ConfigId: kr3_window_1
+        Position: {x: 5, y: 13, z: 5}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5544790f
+        ConfigId: br2_win_1
+        Position: {x: 5, y: 13, z: 4}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 19d5ea6a
+        ConfigId: kr1_window_1
+        Position: {x: 5, y: 13, z: 4}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: c256380
+        ConfigId: kr3_wallshelves_1
+        Position: {x: 13, y: 3, z: 5}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5bff29fd
+        ConfigId: br2_shelf_1
+        Position: {x: 13, y: 3, z: 5}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 710e9963
+        ConfigId: kr1_wallshelves_1
+        Position: {x: 13, y: 3, z: 5}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: b8346ac
+        ConfigId: kr3_fridge_1
+        Position: {x: 11, y: 11, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5e5ea7bf
+        ConfigId: kr2_fridge_1
+        Position: {x: 11, y: 10, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 22e9afb6
+        ConfigId: kr1_fridge_1
+        Position: {x: 11, y: 11, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: cbe8c0c
+        ConfigId: kr3_sink_1
+        Position: {x: 11, y: 8, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: d3e3318
+        ConfigId: kr2_sink_1
+        Position: {x: 11, y: 8, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7dae8f0e
+        ConfigId: kr1_sink_1
+        Position: {x: 11, y: 8, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 6d95857b
+        ConfigId: kr3_gasstove_1
+        Position: {x: 11, y: 5, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 73c01c7f
+        ConfigId: kr2_gasstove_1
+        Position: {x: 11, y: 5, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7cc9c8b
+        ConfigId: kr1_gasstove_1
+        Position: {x: 11, y: 5, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 5cd19f05
+        ConfigId: kr3_table_2
+        Position: {x: 9, y: 2, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 20f3cdcb
+        ConfigId: kr3_table_3
+        Position: {x: 9, y: 2, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 4abc3207
+        ConfigId: kr1_table_2
+        Position: {x: 9, y: 2, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 2572746b
+        ConfigId: kr3_Carpet_1
+        Position: {x: 7, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 3ca80547
+        ConfigId: br2_carpet_1
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 3fab558f
+        ConfigId: kr1_Carpet_1
+        Position: {x: 5, y: 5, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 32734c4
+        ConfigId: kr3_cabinet_1
+        Position: {x: 4, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 2d8d4898
+        ConfigId: kr2_cabinet_1
+        Position: {x: 4, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 527a5ffc
+        ConfigId: kr1_cabinet_1
+        Position: {x: 5, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    DecorFurnitureData:
+    - Id: 5670a488
+      ConfigId: kr1_bin_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 33c17d7f
+      ConfigId: kr1_chair_2
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 681039e0
+      ConfigId: kr1_coffeemaker_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 113f06fe
+      ConfigId: kr1_choppingboard_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 4a4641fe
+      ConfigId: kr1_pot_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 196bd0b4
+      ConfigId: kr1_table_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 73f00fac
+      ConfigId: kr1_kitchencabinets_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 0200000005000000030000000400000003000000050000000300000004000000
+    AdditionSortingValue: 0
+    SubtractionSortingValue: -10
+    PositionString: -74,-36,0
+    NearbyLandListString: 0,1,2
+    LandNavigationString: UpRight-2 Right-1 DownRight-0
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: kr3_window_1|5,13,5|Left;br2_win_1|5,13,4|Left;kr1_window_1|5,13,4|Left
+      kr3_wallshelves_1|13,3,5|Right;br2_shelf_1|13,3,5|Right;kr1_wallshelves_1|13,3,5|Right
+      kr3_fridge_1|11,11,0|Right;kr2_fridge_1|11,10,0|Right;kr1_fridge_1|11,11,0|Right
+      kr3_sink_1|11,8,0|Right;kr2_sink_1|11,8,0|Right;kr1_sink_1|11,8,0|Right kr3_gasstove_1|11,5,0|Right;kr2_gasstove_1|11,5,0|Right;kr1_gasstove_1|11,5,0|Right
+      kr3_table_2|9,2,0|Left;kr3_table_3|9,2,0|Left;kr1_table_2|9,2,0|Left kr3_Carpet_1|7,4,0|Right;br2_carpet_1|4,4,0|Left;kr1_Carpet_1|5,5,0|Right
+      kr3_cabinet_1|4,12,0|Left;kr2_cabinet_1|4,12,0|Left;kr1_cabinet_1|5,12,0|Left
+    UnlockFurnitureOptionPriceString: 50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150 50;100;150 50;100;150
+    UnlockFurnitureStarPriceString: 2,5,3,4,3,5,3,4
+    DecorDataOptionString: kr1_bin_1||Left kr1_chair_2||Right kr1_coffeemaker_1||Left
+      kr1_choppingboard_1||Left kr1_pot_1||Left kr1_table_1||Right kr1_kitchencabinets_1||Right
+  - Id: 4
+    Position: {x: -66, y: -130, z: 0}
+    DefaultWallId: br1_wall_1
+    DefaultFloorId: br1_ground_1
+    NearbyLandList: 
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 0000000005000000
+      _keys: 0000000005000000
+      _values: 0000000005000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 5f9d351
+        ConfigId: br2_shelf_1
+        Position: {x: 13, y: 7, z: 7}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 44d14e29
+        ConfigId: kr3_wallshelves_1
+        Position: {x: 13, y: 7, z: 7}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 6fd8760
+        ConfigId: br1_shelf_1
+        Position: {x: 13, y: 7, z: 7}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 6425a957
+        ConfigId: kr3_wallshelves_1
+        Position: {x: 1, y: 13, z: 8}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 636c6959
+        ConfigId: br2_shelf_1
+        Position: {x: 1, y: 13, z: 8}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 2b642d30
+        ConfigId: br1_shelf_1
+        Position: {x: 1, y: 13, z: 8}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 1ac5bcf3
+        ConfigId: br3_win_1
+        Position: {x: 5, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 6648df6e
+        ConfigId: br2_win_1
+        Position: {x: 5, y: 13, z: 5}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5d157cfd
+        ConfigId: br1_win_1
+        Position: {x: 5, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 609120db
+        ConfigId: br3_bed_1
+        Position: {x: 6, y: 9, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 38364d27
+        ConfigId: br2_bed_1
+        Position: {x: 6, y: 9, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 27f31b2
+        ConfigId: br1_bed_1
+        Position: {x: 7, y: 10, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 7effffe7
+        ConfigId: br3_wardrobe_1
+        Position: {x: 0, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 1b578987
+        ConfigId: br2_bside_2
+        Position: {x: 0, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 4e37f16d
+        ConfigId: br1_ward_1
+        Position: {x: 0, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 22986212
+        ConfigId: br3_bside_1
+        Position: {x: 12, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5a0b4cfc
+        ConfigId: br2_bside_1
+        Position: {x: 12, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7e651f93
+        ConfigId: br1_sidebed_1
+        Position: {x: 12, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 
+    DecorFurnitureData:
+    - Id: 18bf0638
+      ConfigId: br1_box_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 22bdd83e
+      ConfigId: br1_camera_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 2e669816
+      ConfigId: br1_chair_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 2016ac63
+      ConfigId: br1_clock_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 7c966448
+      ConfigId: br1_clock_2
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 516c5129
+      ConfigId: br1_glasses_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 1eb45bb1
+      ConfigId: br1_mat_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 27b73077
+      ConfigId: br1_pic_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 475b8a6d
+      ConfigId: br1_pillow_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 35b4bef7
+      ConfigId: br1_plant_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 283dac7e
+      ConfigId: br1_plant_2
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 8fe5f83
+      ConfigId: br1_stuffedanimal_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 020000000400000005000000050000000300000003000000
+    AdditionSortingValue: 0
+    SubtractionSortingValue: 0
+    PositionString: -66,-130,0
+    NearbyLandListString: 
+    LandNavigationString: Up-0 UpRight-5
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: br2_shelf_1|13,7,7|Right;kr3_wallshelves_1|13,7,7|Right;br1_shelf_1|13,7,7|Right
+      kr3_wallshelves_1|1,13,8|Left;br2_shelf_1|1,13,8|Left;br1_shelf_1|1,13,8|Left
+      br3_win_1|5,13,7|Left;br2_win_1|5,13,5|Left;br1_win_1|5,13,7|Left br3_bed_1|6,9,0|Left;br2_bed_1|6,9,0|Left;br1_bed_1|7,10,0|Left
+      br3_wardrobe_1|0,12,0|Left;br2_bside_2|0,12,0|Left;br1_ward_1|0,12,0|Left br3_bside_1|12,4,0|Right;br2_bside_1|12,4,0|Right;br1_sidebed_1|12,4,0|Right
+    UnlockFurnitureOptionPriceString: '50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150 '
+    UnlockFurnitureStarPriceString: 2,4,5,5,3,3
+    DecorDataOptionString: br1_box_1||Right br1_camera_1||Right br1_chair_1||Left
+      br1_clock_1||Right br1_clock_2||Right br1_glasses_1||Right br1_mat_1||Left
+      br1_pic_1||Left br1_pillow_1||Right br1_plant_1||Left br1_plant_2||Left br1_stuffedanimal_1||Right
+  - Id: 5
+    Position: {x: -28, y: -90, z: 0}
+    DefaultWallId: br3_wall_1
+    DefaultFloorId: br3_ground_1
+    NearbyLandList: 
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 06000000040000000000000005000000
+      _keys: 06000000040000000000000005000000
+      _values: 04000000010000000900000006000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 7a443fad
+        ConfigId: br1_shelf_1
+        Position: {x: 9, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 141865c1
+        ConfigId: br2_shelf_1
+        Position: {x: 9, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 97ddf02
+        ConfigId: br3_shelf_1
+        Position: {x: 9, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 18ce7c5f
+        ConfigId: br1_win_1
+        Position: {x: 13, y: 3, z: 7}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7445fc7
+        ConfigId: br2_win_1
+        Position: {x: 13, y: 3, z: 5}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 38dd40e5
+        ConfigId: br3_win_1
+        Position: {x: 13, y: 3, z: 7}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 6697fe1b
+        ConfigId: br1_win_1
+        Position: {x: 2, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: f9a7328
+        ConfigId: br2_win_1
+        Position: {x: 2, y: 13, z: 5}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 24603331
+        ConfigId: br3_win_1
+        Position: {x: 2, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 316d71d5
+        ConfigId: br1_bed_1
+        Position: {x: 10, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 62e10d8
+        ConfigId: br2_bed_1
+        Position: {x: 9, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 64735298
+        ConfigId: br3_bed_1
+        Position: {x: 9, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 485cf76d
+        ConfigId: br1_sidebed_1
+        Position: {x: 4, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5c16e46b
+        ConfigId: br2_bside_1
+        Position: {x: 4, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7750868
+        ConfigId: br3_bside_1
+        Position: {x: 4, y: 12, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: a80311
+        ConfigId: br1_bookcase_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 2e8d48b0
+        ConfigId: br2_bside_2
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 3722d675
+        ConfigId: br3_wardrobe_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 838b31b
+        ConfigId: br1_mat_1
+        Position: {x: 2, y: 2, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 11291b6d
+        ConfigId: br2_carpet_1
+        Position: {x: 2, y: 2, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: e04ece4
+        ConfigId: br3_carpet_1
+        Position: {x: 2, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    DecorFurnitureData:
+    - Id: 12d9e76a
+      ConfigId: br3_lamp_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 31873bc6
+      ConfigId: br3_pillow_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 76adf875
+      ConfigId: br3_plant_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 45897796
+      ConfigId: br3_tissuebox_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 65e326ed
+      ConfigId: br2_book_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 02000000030000000500000002000000030000000400000005000000
+    AdditionSortingValue: 0
+    SubtractionSortingValue: 0
+    PositionString: -28,-90,0
+    NearbyLandListString: 
+    LandNavigationString: DownLeft-4 UpLeft-1 Up-9 UpRight-6
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: br1_shelf_1|9,13,7|Left;br2_shelf_1|9,13,7|Left;br3_shelf_1|9,13,7|Left
+      br1_win_1|13,3,7|Right;br2_win_1|13,3,5|Right;br3_win_1|13,3,7|Right br1_win_1|2,13,7|Left;br2_win_1|2,13,5|Left;br3_win_1|2,13,7|Left
+      br1_bed_1|10,6,0|Right;br2_bed_1|9,6,0|Right;br3_bed_1|9,6,0|Right br1_sidebed_1|4,12,0|Left;br2_bside_1|4,12,0|Left;br3_bside_1|4,12,0|Left
+      br1_bookcase_1|12,0,0|Right;br2_bside_2|12,0,0|Right;br3_wardrobe_1|12,0,0|Right
+      br1_mat_1|2,2,0|Left;br2_carpet_1|2,2,0|Left;br3_carpet_1|2,2,0|Right
+    UnlockFurnitureOptionPriceString: 50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150 50;100;150
+    UnlockFurnitureStarPriceString: 2,3,5,2,3,4,5
+    DecorDataOptionString: br3_lamp_1||Right br3_pillow_1||Left br3_plant_1||Left
+      br3_tissuebox_1||Left br2_book_1||Left
+  - Id: 6
+    Position: {x: 54, y: 0, z: 0}
+    DefaultWallId: kr3_wall_1
+    DefaultFloorId: kr3_ground_1
+    NearbyLandList: 
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 00000000050000000400000006000000
+      _keys: 00000000050000000400000006000000
+      _values: 08000000070000000900000005000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 483ae9e0
+        ConfigId: kr1_window_1
+        Position: {x: 3, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 35913636
+        ConfigId: br3_win_1
+        Position: {x: 3, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 45714da6
+        ConfigId: kr3_window_1
+        Position: {x: 3, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 3bb538e2
+        ConfigId: kr1_wallshelves_1
+        Position: {x: 13, y: 2, z: 7}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 6408a2c2
+        ConfigId: br3_shelf_1
+        Position: {x: 13, y: 2, z: 7}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 6510fdfb
+        ConfigId: kr3_wallshelves_1
+        Position: {x: 13, y: 2, z: 7}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 3e0b32f0
+        ConfigId: kr2_fridge_1
+        Position: {x: 11, y: 10, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 54171d7a
+        ConfigId: kr1_fridge_1
+        Position: {x: 11, y: 10, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 664ce12d
+        ConfigId: kr3_fridge_1
+        Position: {x: 11, y: 10, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 241de766
+        ConfigId: kr1_sink_1
+        Position: {x: 11, y: 7, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 790152af
+        ConfigId: kr2_sink_1
+        Position: {x: 11, y: 7, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 66318388
+        ConfigId: kr3_sink_1
+        Position: {x: 11, y: 7, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 141329c0
+        ConfigId: kr1_gasstove_1
+        Position: {x: 11, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 155ab088
+        ConfigId: kr2_gasstove_1
+        Position: {x: 11, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 3c0063f6
+        ConfigId: kr3_gasstove_1
+        Position: {x: 11, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 4a70d9d4
+        ConfigId: kr1_table_2
+        Position: {x: 9, y: 1, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5a04ec62
+        ConfigId: kr3_table_3
+        Position: {x: 9, y: 1, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 67519462
+        ConfigId: kr3_table_2
+        Position: {x: 9, y: 1, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 1c8fc766
+        ConfigId: kr1_Carpet_1
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 49f3457d
+        ConfigId: br3_carpet_1
+        Position: {x: 2, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 57b9b4f5
+        ConfigId: kr3_Carpet_1
+        Position: {x: 5, y: 3, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    DecorFurnitureData:
+    - Id: 207f7fdd
+      ConfigId: kr3_cabinet_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 49f748c1
+      ConfigId: kr3_kitchencabinets_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 1e0c589f
+      ConfigId: kr3_table_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 7929e7c6
+      ConfigId: kr3_chair_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 1038b3f8
+      ConfigId: kr1_bin_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 2d7c0bdc
+      ConfigId: kr1_coffeemaker_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 17149111
+      ConfigId: kr1_pot_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 7af9729e
+      ConfigId: kr1_choppingboard_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 05000000020000000400000003000000030000000400000005000000
+    AdditionSortingValue: 0
+    SubtractionSortingValue: 0
+    PositionString: 54,0,0
+    NearbyLandListString: 
+    LandNavigationString: Up-8 UpRight-7 UpLeft-9 DownLeft-5
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: kr1_window_1|3,13,7|Left;br3_win_1|3,13,7|Left;kr3_window_1|3,13,7|Left
+      kr1_wallshelves_1|13,2,7|Right;br3_shelf_1|13,2,7|Right;kr3_wallshelves_1|13,2,7|Right
+      kr2_fridge_1|11,10,0|Right;kr1_fridge_1|11,10,0|Right;kr3_fridge_1|11,10,0|Right
+      kr1_sink_1|11,7,0|Right;kr2_sink_1|11,7,0|Right;kr3_sink_1|11,7,0|Right kr1_gasstove_1|11,4,0|Right;kr2_gasstove_1|11,4,0|Right;kr3_gasstove_1|11,4,0|Right
+      kr1_table_2|9,1,0|Left;kr3_table_3|9,1,0|Left;kr3_table_2|9,1,0|Left kr1_Carpet_1|4,4,0|Right;br3_carpet_1|2,2,0|Right;kr3_Carpet_1|5,3,0|Right
+    UnlockFurnitureOptionPriceString: 50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150 50;100;150
+    UnlockFurnitureStarPriceString: 5,2,4,3,3,4,5
+    DecorDataOptionString: kr3_cabinet_1||Left kr3_kitchencabinets_1||Right kr3_table_1||Right
+      kr3_chair_1||Right kr1_bin_1||Left kr1_coffeemaker_1||Left kr1_pot_1||Left
+      kr1_choppingboard_1||Left
+  - Id: 7
+    Position: {x: 96, y: 46, z: 0}
+    DefaultWallId: lr2_wall1_2
+    DefaultFloorId: lr2_ground_1
+    NearbyLandList: 
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 0400000006000000
+      _keys: 0400000006000000
+      _values: 0800000006000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 676a5843
+        ConfigId: lr1_window_1
+        Position: {x: 1, y: 13, z: 3}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 629129fa
+        ConfigId: lr3_window_1
+        Position: {x: 1, y: 13, z: 5}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 12cfe68c
+        ConfigId: lr2_window_1
+        Position: {x: 1, y: 13, z: 3}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 534504c8
+        ConfigId: lr1_mirror_1
+        Position: {x: 13, y: 5, z: 3}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 216138d9
+        ConfigId: btr1_mirror_1
+        Position: {x: 13, y: 5, z: 5}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 70a25704
+        ConfigId: lr2_mirror_1
+        Position: {x: 13, y: 5, z: 4}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 3106c7e5
+        ConfigId: lr1_sofa_1
+        Position: {x: 11, y: 3, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 4a292581
+        ConfigId: lr3_sofa_1
+        Position: {x: 11, y: 3, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 68aafa4e
+        ConfigId: lr2_sofa_1
+        Position: {x: 11, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 4d64cf12
+        ConfigId: lr1_cabinet_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 211d12dc
+        ConfigId: br1_bookcase_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 26681fa8
+        ConfigId: lr2_cabinet_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 7445d9f2
+        ConfigId: lr1_table_1
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 75ca033d
+        ConfigId: kr3_table_1
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 63572101
+        ConfigId: lr2_teatable_1
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 7a6b062
+        ConfigId: lr1_carpet_1
+        Position: {x: 3, y: 3, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 485bc527
+        ConfigId: btr1_carpet_1
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 230facb5
+        ConfigId: lr2_carpet_1
+        Position: {x: 3, y: 2, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 
+    DecorFurnitureData:
+    - Id: 72de0292
+      ConfigId: lr2_chair_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 5528b776
+      ConfigId: lr2_lamp_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 4394130f
+      ConfigId: lr2_picture_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 38d4fb07
+      ConfigId: lr2_picture_2
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 4a35a763
+      ConfigId: lr2_plant_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 5a1e310f
+      ConfigId: lr2_television_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 020000000500000003000000040000000300000005000000
+    AdditionSortingValue: 0
+    SubtractionSortingValue: 0
+    PositionString: 96,46,0
+    NearbyLandListString: 
+    LandNavigationString: UpLeft-8 DownLeft-6
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: lr1_window_1|1,13,3|Left;lr3_window_1|1,13,5|Left;lr2_window_1|1,13,3|Left
+      lr1_mirror_1|13,5,3|Right;btr1_mirror_1|13,5,5|Right;lr2_mirror_1|13,5,4|Right
+      lr1_sofa_1|11,3,0|Right;lr3_sofa_1|11,3,0|Right;lr2_sofa_1|11,4,0|Right lr1_cabinet_1|12,0,0|Right;br1_bookcase_1|12,0,0|Right;lr2_cabinet_1|12,0,0|Right
+      lr1_table_1|4,4,0|Right;kr3_table_1|4,4,0|Right;lr2_teatable_1|4,4,0|Left lr1_carpet_1|3,3,0|Left;btr1_carpet_1|4,4,0|Right;lr2_carpet_1|3,2,0|Right
+    UnlockFurnitureOptionPriceString: '50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150 '
+    UnlockFurnitureStarPriceString: 2,5,3,4,3,5
+    DecorDataOptionString: lr2_chair_1||Right lr2_lamp_1||Left lr2_picture_1||Right
+      lr2_picture_2||Right lr2_plant_1||Left lr2_television_1||Right
+  - Id: 8
+    Position: {x: 60, y: 104, z: 0}
+    DefaultWallId: kr2_wall_1
+    DefaultFloorId: kr2_ground_1
+    NearbyLandList: 
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 070000000100000006000000
+      _keys: 070000000100000006000000
+      _values: 070000000600000009000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 7b963218
+        ConfigId: kr1_fridge_1
+        Position: {x: 11, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: e2971f8
+        ConfigId: kr3_fridge_1
+        Position: {x: 11, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 27bb6a03
+        ConfigId: kr2_fridge_1
+        Position: {x: 11, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 6b99ed74
+        ConfigId: kr1_sink_1
+        Position: {x: 8, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 2764f507
+        ConfigId: kr3_sink_1
+        Position: {x: 8, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 428b511b
+        ConfigId: kr2_sink_1
+        Position: {x: 8, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 53cfeeca
+        ConfigId: kr1_gasstove_1
+        Position: {x: 5, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 3794f21f
+        ConfigId: kr3_gasstove_1
+        Position: {x: 5, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 26f6a1df
+        ConfigId: kr2_gasstove_1
+        Position: {x: 5, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 591daadb
+        ConfigId: kr1_table_2
+        Position: {x: 2, y: 9, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7ee288e9
+        ConfigId: kr3_table_2
+        Position: {x: 2, y: 9, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 418cbd6b
+        ConfigId: kr2_cabinet_1
+        Position: {x: 2, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 66316c23
+        ConfigId: kr1_table_1
+        Position: {x: 4, y: 1, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 12ec7ec0
+        ConfigId: kr3_table_1
+        Position: {x: 4, y: 1, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 72b1f0e6
+        ConfigId: kr2_table_1
+        Position: {x: 4, y: 1, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 24b85983
+        ConfigId: kr1_chair_2
+        Position: {x: 2, y: 3, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: af99c11
+        ConfigId: kr3_chair_1
+        Position: {x: 2, y: 3, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 47b453
+        ConfigId: kr2_chair_2
+        Position: {x: 2, y: 2, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 7159f213
+        ConfigId: kr1_cabinet_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 19ecc550
+        ConfigId: kr3_cabinet_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7b72b489
+        ConfigId: kr2_cabinet_2
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 238b25d5
+        ConfigId: kr1_Carpet_1
+        Position: {x: 2, y: 5, z: 3}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 6373db02
+        ConfigId: kr3_Carpet_1
+        Position: {x: 2, y: 5, z: 3}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 2ab57c9f
+        ConfigId: kr2_carpet_1
+        Position: {x: 3, y: 4, z: 3}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 66a027bf
+        ConfigId: kr1_wallshelves_1
+        Position: {x: 8, y: 13, z: 6}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 1665a83d
+        ConfigId: kr3_wallshelves_1
+        Position: {x: 8, y: 13, z: 6}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 30ce229f
+        ConfigId: kr2_wallshelf_
+        Position: {x: 9, y: 13, z: 6}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 6d290742
+        ConfigId: kr1_window_1
+        Position: {x: 2, y: 13, z: 5}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 3a9e0949
+        ConfigId: kr3_window_1
+        Position: {x: 2, y: 13, z: 5}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 41ebd99a
+        ConfigId: kr2_window_1
+        Position: {x: 3, y: 13, z: 4}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    DecorFurnitureData:
+    - Id: 37655f8f
+      ConfigId: kr2_clock_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 2e955d3c
+      ConfigId: kr2_kettle_2
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 185b8297
+      ConfigId: kr2_kettle_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 38b1b57c
+      ConfigId: kr2_teacup_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 57aed2af
+      ConfigId: kr2_milk_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 1337c6e1
+      ConfigId: Kr2_pan_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 48e6ed01
+      ConfigId: kr2_plant_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 456cda70
+      ConfigId: kr2_pot_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 22c4307a
+      ConfigId: kr2_utensils_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 261fa933
+      ConfigId: kr2_utensils_2
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 7994e047
+      ConfigId: kr2_wallplant_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 05000000050000000200000004000000040000000400000002000000020000000100000002000000
+    AdditionSortingValue: 0
+    SubtractionSortingValue: 0
+    PositionString: 60,104,0
+    NearbyLandListString: 
+    LandNavigationString: DownRight-7 Down-6 DownLeft-9
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: kr1_fridge_1|11,11,0|Left;kr3_fridge_1|11,11,0|Left;kr2_fridge_1|11,11,0|Left
+      kr1_sink_1|8,11,0|Left;kr3_sink_1|8,11,0|Left;kr2_sink_1|8,11,0|Left kr1_gasstove_1|5,11,0|Left;kr3_gasstove_1|5,11,0|Left;kr2_gasstove_1|5,11,0|Left
+      kr1_table_2|2,9,0|Right;kr3_table_2|2,9,0|Right;kr2_cabinet_1|2,11,0|Left kr1_table_1|4,1,0|Right;kr3_table_1|4,1,0|Right;kr2_table_1|4,1,0|Right
+      kr1_chair_2|2,3,0|Left;kr3_chair_1|2,3,0|Right;kr2_chair_2|2,2,0|Left kr1_cabinet_1|12,0,0|Right;kr3_cabinet_1|12,0,0|Right;kr2_cabinet_2|12,0,0|Right
+      kr1_Carpet_1|2,5,3|Left;kr3_Carpet_1|2,5,3|Left;kr2_carpet_1|3,4,3|Left kr1_wallshelves_1|8,13,6|Left;kr3_wallshelves_1|8,13,6|Left;kr2_wallshelf_|9,13,6|Left
+      kr1_window_1|2,13,5|Left;kr3_window_1|2,13,5|Left;kr2_window_1|3,13,4|Left
+    UnlockFurnitureOptionPriceString: 50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150 50;100;150 50;100;150 50;100;150 50;100;150
+    UnlockFurnitureStarPriceString: 5,5,2,4,4,4,2,2,1,2
+    DecorDataOptionString: kr2_clock_1||Right kr2_kettle_2||Left kr2_kettle_1||Left
+      kr2_teacup_1||Right kr2_milk_1||Left Kr2_pan_1||Right kr2_plant_1||Left kr2_pot_1||Left
+      kr2_utensils_1||Left kr2_utensils_2||Left kr2_wallplant_1||Right
+  - Id: 9
+    Position: {x: 6, y: 46, z: 0}
+    DefaultWallId: lr3_wall_1
+    DefaultFloorId: lr3_ground_1
+    NearbyLandList: 
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 040000000500000003000000070000000100000006000000
+      _keys: 040000000500000003000000070000000100000006000000
+      _values: 0a0000000800000007000000060000000500000001000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 698820bc
+        ConfigId: lr1_window_1
+        Position: {x: 1, y: 13, z: 3}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7f717dc8
+        ConfigId: lr2_window_1
+        Position: {x: 1, y: 13, z: 3}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 1b282f17
+        ConfigId: lr3_window_2
+        Position: {x: 1, y: 13, z: 4}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 76e77a53
+        ConfigId: lr1_sofa_1
+        Position: {x: 4, y: 10, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 21ca6396
+        ConfigId: lr2_sofa_1
+        Position: {x: 5, y: 10, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 2175443e
+        ConfigId: lr3_sofa_2
+        Position: {x: 5, y: 10, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 356f4667
+        ConfigId: lr1_cabinet_1
+        Position: {x: 2, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 305dbbce
+        ConfigId: lr2_cabinet_1
+        Position: {x: 2, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 4e25a90f
+        ConfigId: lr3_cabinet_1
+        Position: {x: 2, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 4a2f1b65
+        ConfigId: lr1_television_1
+        Position: {x: 4, y: 0, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 434c5ebc
+        ConfigId: lr2_television_1
+        Position: {x: 4, y: 0, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 477b08f3
+        ConfigId: lr3_television_2
+        Position: {x: 4, y: 0, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 3048e213
+        ConfigId: lr1_table_1
+        Position: {x: 5, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5eab7c85
+        ConfigId: lr2_teatable_1
+        Position: {x: 5, y: 4, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 580b0c43
+        ConfigId: lr3_tea_table_1
+        Position: {x: 5, y: 4, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 2ab596f5
+        ConfigId: lr1_chair_1
+        Position: {x: 0, y: 3, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7d05ed63
+        ConfigId: lr2_chair_1
+        Position: {x: 1, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 4f9c5b5
+        ConfigId: lr3_chair_1
+        Position: {x: 1, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 
+    DecorFurnitureData:
+    - Id: 10ff4cca
+      ConfigId: lr3_air_conditioner_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 11bd2e7c
+      ConfigId: lr3_book_case_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 66a6e787
+      ConfigId: lr3_cat_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 7cf6e8d5
+      ConfigId: lr3_clock_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 650ac844
+      ConfigId: lr3_penguin_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 21b84b4c
+      ConfigId: lr3_picture_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 504d2bad
+      ConfigId: lr3_pillow_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 29313ad4
+      ConfigId: lr3_standing_lamp_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 020000000100000003000000050000000500000005000000
+    AdditionSortingValue: 30
+    SubtractionSortingValue: 30
+    PositionString: 6,46,0
+    NearbyLandListString: 
+    LandNavigationString: UpLeft-10 UpRight-8 Right-7 DownRight-6 Down-5 DownLeft-1
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: lr1_window_1|1,13,3|Left;lr2_window_1|1,13,3|Left;lr3_window_2|1,13,4|Left
+      lr1_sofa_1|4,10,0|Left;lr2_sofa_1|5,10,0|Left;lr3_sofa_2|5,10,0|Left lr1_cabinet_1|2,11,0|Left;lr2_cabinet_1|2,11,0|Left;lr3_cabinet_1|2,11,0|Left
+      lr1_television_1|4,0,0|Left;lr2_television_1|4,0,0|Left;lr3_television_2|4,0,0|Left
+      lr1_table_1|5,4,0|Right;lr2_teatable_1|5,4,0|Left;lr3_tea_table_1|5,4,0|Left
+      lr1_chair_1|0,3,0|Right;lr2_chair_1|1,4,0|Right;lr3_chair_1|1,4,0|Right
+    UnlockFurnitureOptionPriceString: '50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150 '
+    UnlockFurnitureStarPriceString: 2,1,3,5,5,5
+    DecorDataOptionString: lr3_air_conditioner_1||Right lr3_book_case_1||Right lr3_cat_1||Right
+      lr3_clock_1||Right lr3_penguin_1||Right lr3_picture_1||Left lr3_pillow_1||Left
+      lr3_standing_lamp_1||Left
+  - Id: 10
+    Position: {x: -30, y: 84, z: 0}
+    DefaultWallId: btr3_wall_1
+    DefaultFloorId: btr3_ground_1
+    NearbyLandList: 
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 03000000070000000600000001000000
+      _keys: 03000000070000000600000001000000
+      _values: 08000000090000000b00000002000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 2d7fb6a7
+        ConfigId: btr1_bathtub_1
+        Position: {x: 4, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 3b3dac10
+        ConfigId: btr2_bathroom_1
+        Position: {x: 4, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5f7a2a05
+        ConfigId: btr3_bathtub_1
+        Position: {x: 5, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 5bd16c81
+        ConfigId: btr1_window_1
+        Position: {x: 4, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 458cc1a0
+        ConfigId: btr2_window_1
+        Position: {x: 4, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 5d8383d8
+        ConfigId: btr3_window_1
+        Position: {x: 4, y: 13, z: 6}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 4b3a48e0
+        ConfigId: btr1_carpet_1
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 2057e508
+        ConfigId: btr2_carpet_1
+        Position: {x: 3, y: 4, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 11ea93cd
+        ConfigId: btr3_carpet_2
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 2419a80c
+        ConfigId: btr1_sink_1
+        Position: {x: 12, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 484babeb
+        ConfigId: btr2_shelve_1
+        Position: {x: 12, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 33ce024b
+        ConfigId: btr3_sink_1
+        Position: {x: 11, y: 6, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 44d5c429
+        ConfigId: btr1_washingmachine_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 74f063fe
+        ConfigId: btr2_trashcan_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7b5edc37
+        ConfigId: btr3_washingmachine_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 3ccb4b74
+        ConfigId: btr1_plant_1
+        Position: {x: 12, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 6c786039
+        ConfigId: btr2_tree_1
+        Position: {x: 12, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 77bcbe34
+        ConfigId: btr3_plant_1
+        Position: {x: 12, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 
+    DecorFurnitureData:
+    - Id: 741900d2
+      ConfigId: btr3_chair_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 671a5448
+      ConfigId: btr3_hanger_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 6812a083
+      ConfigId: btr3_lamp_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 5a0638f6
+      ConfigId: btr3_wallcabinet_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 7fa3c66b
+      ConfigId: btr3_wallhanger_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 68822feb
+      ConfigId: btr3_wallhanger_2
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 010000000400000005000000050000000400000004000000
+    AdditionSortingValue: 50
+    SubtractionSortingValue: 50
+    PositionString: -30,84,0
+    NearbyLandListString: 
+    LandNavigationString: Right-8 DownRight-9 DownLeft-11 Down-2
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: btr1_bathtub_1|4,11,0|Left;btr2_bathroom_1|4,11,0|Left;btr3_bathtub_1|5,11,0|Left
+      btr1_window_1|4,13,7|Left;btr2_window_1|4,13,7|Left;btr3_window_1|4,13,6|Left
+      btr1_carpet_1|4,4,0|Left;btr2_carpet_1|3,4,0|Left;btr3_carpet_2|4,4,0|Left
+      btr1_sink_1|12,6,0|Right;btr2_shelve_1|12,6,0|Right;btr3_sink_1|11,6,0|Right
+      btr1_washingmachine_1|12,0,0|Right;btr2_trashcan_1|12,0,0|Right;btr3_washingmachine_1|12,0,0|Right
+      btr1_plant_1|12,11,0|Left;btr2_tree_1|12,11,0|Left;btr3_plant_1|12,11,0|Left
+    UnlockFurnitureOptionPriceString: '50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150 '
+    UnlockFurnitureStarPriceString: 1,4,5,5,4,4
+    DecorDataOptionString: btr3_chair_1||Right btr3_hanger_1||Right btr3_lamp_1||Right
+      btr3_wallcabinet_1||Right btr3_wallhanger_1||Right btr3_wallhanger_2||Right
+  - Id: 11
+    Position: {x: -72, y: 40, z: 0}
+    DefaultWallId: btr2_wall_1
+    DefaultFloorId: btr2_ground_1
+    NearbyLandList: 
+    LandNavigation:
+      reorderableList:
+        canAdd: 0
+        canRemove: 0
+        draggable: 0
+        expandable: 0
+        multipleSelection: 0
+        isExpanded: 0
+        label:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 0
+        footerHeight: 0
+        slideEasing: 0
+        verticalSpacing: 0
+        showDefaultBackground: 0
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: 0500000007000000
+      _keys: 0500000007000000
+      _values: 0a00000002000000
+    UnlockFurnitureOptions:
+    - FurnitureOption:
+      - Id: 4be0ff9d
+        ConfigId: btr1_bathtub_1
+        Position: {x: 5, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 407314bb
+        ConfigId: btr3_bathtub_1
+        Position: {x: 6, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 11c4e3b0
+        ConfigId: btr2_bathroom_1
+        Position: {x: 5, y: 11, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 14627ab7
+        ConfigId: btr1_window_1
+        Position: {x: 4, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 12edf8c0
+        ConfigId: btr3_window_1
+        Position: {x: 4, y: 13, z: 6}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 6c9137e6
+        ConfigId: btr2_window_1
+        Position: {x: 4, y: 13, z: 7}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 1a66b584
+        ConfigId: btr1_carpet_1
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 796fe3ca
+        ConfigId: btr3_carpet_2
+        Position: {x: 4, y: 4, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 269a4ea6
+        ConfigId: btr2_carpet_1
+        Position: {x: 3, y: 4, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 789928c1
+        ConfigId: btr1_sink_1
+        Position: {x: 12, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 73f58d96
+        ConfigId: btr3_sink_1
+        Position: {x: 11, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7a319a56
+        ConfigId: btr2_sink_1
+        Position: {x: 12, y: 4, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 50e391c8
+        ConfigId: btr1_washingmachine_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 72543c8d
+        ConfigId: btr3_washingmachine_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 4a259c5
+        ConfigId: btr2_trashcan_1
+        Position: {x: 12, y: 0, z: 0}
+        Direction: 1
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    - FurnitureOption:
+      - Id: 65c8dae3
+        ConfigId: btr1_plant_1
+        Position: {x: 12, y: 10, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: 7c40c012
+        ConfigId: btr3_plant_1
+        Position: {x: 12, y: 10, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+      - Id: ff0fd0b
+        ConfigId: btr2_tree_1
+        Position: {x: 12, y: 10, z: 0}
+        Direction: 0
+        ParentId: 
+        ParentIndexInFurnitureList: -1
+    UnlockFurniturePrices:
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 320000006400000096000000
+    - Prices: 
+    DecorFurnitureData:
+    - Id: 4cc0e8b8
+      ConfigId: btr2_curtain_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 33f16437
+      ConfigId: btr2_hangedshelve_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 6269eb09
+      ConfigId: btr2_lamp_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 4937eb18
+      ConfigId: btr2_mirror_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 4024018b
+      ConfigId: btr2_painting_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 1c0ee8cb
+      ConfigId: btr2_rubberduck_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 165e5244
+      ConfigId: btr2_sandals_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 29db9c13
+      ConfigId: btr2_towelrack_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 1
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 107e889c
+      ConfigId: btr2_candle_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 6d4e0a0f
+      ConfigId: btr2_chair_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    - Id: 2d9f4a79
+      ConfigId: btr2_beartable_1
+      Position: {x: 0, y: 0, z: 0}
+      Direction: 0
+      ParentId: 
+      ParentIndexInFurnitureList: -1
+    UnlockFurnitureStarPrices: 030000000200000004000000030000000400000005000000
+    AdditionSortingValue: 0
+    SubtractionSortingValue: 0
+    PositionString: -72,40,0
+    NearbyLandListString: 
+    LandNavigationString: UpRight-10 DownRight-2
+    DefaultRoomFurnitureString: 
+    UnlockFurnitureOptionString: btr1_bathtub_1|5,11,0|Left;btr3_bathtub_1|6,11,0|Left;btr2_bathroom_1|5,11,0|Left
+      btr1_window_1|4,13,7|Left;btr3_window_1|4,13,6|Left;btr2_window_1|4,13,7|Left
+      btr1_carpet_1|4,4,0|Left;btr3_carpet_2|4,4,0|Left;btr2_carpet_1|3,4,0|Left
+      btr1_sink_1|12,4,0|Right;btr3_sink_1|11,4,0|Right;btr2_sink_1|12,4,0|Right
+      btr1_washingmachine_1|12,0,0|Right;btr3_washingmachine_1|12,0,0|Right;btr2_trashcan_1|12,0,0|Right
+      btr1_plant_1|12,10,0|Left;btr3_plant_1|12,10,0|Left;btr2_tree_1|12,10,0|Left
+    UnlockFurnitureOptionPriceString: '50;100;150 50;100;150 50;100;150 50;100;150
+      50;100;150 50;100;150 '
+    UnlockFurnitureStarPriceString: 3,2,4,3,4,5
+    DecorDataOptionString: btr2_curtain_1||Left btr2_hangedshelve_1||Left btr2_lamp_1||Right
+      btr2_mirror_1||Right btr2_painting_1||Right btr2_rubberduck_1||Right btr2_sandals_1||Right
+      btr2_towelrack_1||Right btr2_candle_1||Left btr2_chair_1||Left btr2_beartable_1||Left

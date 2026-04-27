@@ -1,0 +1,13 @@
+yoyo_car.png
+size:827,827
+filter:Linear,Linear
+pma:true
+back wheel
+bounds:309,96,180,181
+car
+bounds:2,279,823,546
+carton box
+bounds:2,36,241,305
+rotate:90
+front wheel
+bounds:491,96,180,181

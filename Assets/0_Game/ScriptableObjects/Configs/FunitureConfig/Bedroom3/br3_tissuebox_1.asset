@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d2e50d8814da5b5c0547f1d5a8ec8, type: 3}
+  m_Name: br3_tissuebox_1
+  m_EditorClassIdentifier: 
+  Config:
+    Id: br3_tissuebox_1
+    Size: {x: 1, y: 1, z: 1}
+    FurnitureName: TissueBox
+    Sprite: {fileID: 21300000, guid: 269faa4feec7ece41883eea2fcd7ce37, type: 3}
+    Category: 5
+    SubCategory: 15
+    Concept: 5
+    UnlockType: 2
+    Price: 20
+    TrashType: 0
+    FurnitureMoveType: 2
+    CanPlaceOnOthers: 1
+    CanBePlaceOn: 0
+    SurfaceSize: {x: 1, y: 1, z: 0}
+    SurfaceOffset: {x: 0, y: 0, z: 1}
+    BaseDirection: 0
+    CanFlip: 1
+    IsAutoFlip: 0
+    IsWindow: 0
+    IsCarpet: 0
+    IsSpecial: 0
+    IsMessy: 0
+    Prefab: {fileID: 3503131441033485102, guid: c87e6614c8dde8945bf10be89eba5ae2, type: 3}
+    SizeString: 1,1,1
+    SurfaceSizeString: 1,1,0
+    SurfaceOffsetString: 0,0,1

@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971ba8111af747fc9508efbcbc20c483, type: 3}
+  m_Name: LevelUpRewardConfigSO
+  m_EditorClassIdentifier: 
+  _sheetId: 
+  _gridId: 
+  _tsvCachePath: 
+  _jsonCachePath: 
+  _datas:
+  - Level: 2
+    SpecialReward:
+      RewardType: 3
+      RewardId: br1_box_1
+      RewardAmount: 0
+    NormalRewards:
+    - RewardType: 3
+      RewardId: br1_sidebed_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: kr1_coffeemaker_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: kr1_table_1
+      RewardAmount: 0
+  - Level: 3
+    SpecialReward:
+      RewardType: 3
+      RewardId: kr2_plant_1
+      RewardAmount: 0
+    NormalRewards:
+    - RewardType: 3
+      RewardId: kr2_carpet_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: kr2_chair_2
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: lr3_penguin_1
+      RewardAmount: 0
+  - Level: 4
+    SpecialReward:
+      RewardType: 3
+      RewardId: lr3_pillow_1
+      RewardAmount: 0
+    NormalRewards:
+    - RewardType: 3
+      RewardId: lr3_air_conditioner_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: kr2_teacup_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: kr2_gasstove_1
+      RewardAmount: 0
+  - Level: 5
+    SpecialReward:
+      RewardType: 3
+      RewardId: br3_bed_1
+      RewardAmount: 0
+    NormalRewards:
+    - RewardType: 3
+      RewardId: br3_win_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: br3_tissuebox_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: br3_lamp_1
+      RewardAmount: 0
+  - Level: 6
+    SpecialReward:
+      RewardType: 3
+      RewardId: kr1_Carpet_1
+      RewardAmount: 0
+    NormalRewards:
+    - RewardType: 3
+      RewardId: kr1_cabinet_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: kr1_wallshelves_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: kr1_table_2
+      RewardAmount: 0
+  - Level: 7
+    SpecialReward:
+      RewardType: 3
+      RewardId: lr1_chair_1
+      RewardAmount: 0
+    NormalRewards:
+    - RewardType: 3
+      RewardId: lr1_pillow_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: lr1_picture_2
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: lr1_lamp_1
+      RewardAmount: 0
+  - Level: 8
+    SpecialReward:
+      RewardType: 3
+      RewardId: lr2_cabinet_1
+      RewardAmount: 0
+    NormalRewards:
+    - RewardType: 3
+      RewardId: lr2_window_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: lr2_mirror_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: lr2_carpet_1
+      RewardAmount: 0
+  - Level: 9
+    SpecialReward:
+      RewardType: 3
+      RewardId: lr2_television_1
+      RewardAmount: 0
+    NormalRewards:
+    - RewardType: 3
+      RewardId: lr2_chair_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: btr1_wallshelf_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: btr1_bathtub_1
+      RewardAmount: 0
+  - Level: 10
+    SpecialReward:
+      RewardType: 3
+      RewardId: btr1_carpet_1
+      RewardAmount: 0
+    NormalRewards:
+    - RewardType: 3
+      RewardId: btr1_cosmetics_4
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: btr1_showerhead_1
+      RewardAmount: 0
+    - RewardType: 3
+      RewardId: btr2_rubberduck_1
+      RewardAmount: 0

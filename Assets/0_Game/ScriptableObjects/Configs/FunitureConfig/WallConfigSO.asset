@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dbd1cfca1eda774291c1b1addf12fd4, type: 3}
+  m_Name: WallConfigSO
+  m_EditorClassIdentifier: 
+  _sheetId: 1hyDu1UQ-5rWI6K9xuprfC3vk9HjUGNqZKrgVP69ZT1c
+  _gridId: 1559752627
+  _tsvCachePath: 
+  _jsonCachePath: 
+  _datas:
+  - Id: mr_wall_1
+    Concept: 2
+    Sprite: {fileID: 21300000, guid: e70faa48107e34a449217a55020ffe27, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 1
+    IsDecor: 0
+    SpriteString: mr_wall_1_131309
+  - Id: mr_wall_2
+    Concept: 2
+    Sprite: {fileID: 21300000, guid: fd03d6c25f884c2459e6e35593d84c05, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 1
+    IsDecor: 0
+    SpriteString: mr_wall_2_131309
+  - Id: nr1_wall_2
+    Concept: 4
+    Sprite: {fileID: 21300000, guid: 4741269c60b2c404180900d2f08b94cd, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: nr1_wall_2_151512
+  - Id: nr1_wall_1
+    Concept: 4
+    Sprite: {fileID: 21300000, guid: be1a4a0a9ef839641afaff18f4b6a3d6, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: nr1_wall_1_131310
+  - Id: br1_wall_2
+    Concept: 1
+    Sprite: {fileID: 21300000, guid: 9bc964d67bb480748a32ff68087e26fa, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: br1_wall_2_131309
+  - Id: br1_wall_1
+    Concept: 1
+    Sprite: {fileID: 21300000, guid: 505de9731532dae4c87f2c1fbfbdb980, type: 3}
+    UnlockType: 2
+    Price: 40
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: br1_wall_1_151512
+  - Id: br2_wall_1
+    Concept: 3
+    Sprite: {fileID: 21300000, guid: af4509182a160c649b06c97f86f006fe, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: br2_wall_1_131310
+  - Id: br2_wall_2
+    Concept: 3
+    Sprite: {fileID: 21300000, guid: dea55b291b519e749b94ad8af3a8cb0a, type: 3}
+    UnlockType: 2
+    Price: 50
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: br2_wall_2_151512
+  - Id: br3_wall_1
+    Concept: 5
+    Sprite: {fileID: 21300000, guid: 098ed201048de0d46a34aacb9757348d, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: br3_wall_1_151512
+  - Id: br3_wall_2
+    Concept: 5
+    Sprite: {fileID: 21300000, guid: 57b57c58c9911a44888e3e703785dc49, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: br3_wall_2_131310
+  - Id: kr1_wall_1
+    Concept: 6
+    Sprite: {fileID: 21300000, guid: 9dccaa3bd4b5418429e913971cc48c05, type: 3}
+    UnlockType: 2
+    Price: 50
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: kr1_wall_1_151512
+  - Id: kr1_wall_2
+    Concept: 6
+    Sprite: {fileID: 21300000, guid: 48877cdab785914419ae4fecdadf022c, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: kr1_wall_2_131310
+  - Id: kr3_wall_1
+    Concept: 8
+    Sprite: {fileID: 21300000, guid: f32ce007c3dea7f40bdb1f83e8608a44, type: 3}
+    UnlockType: 2
+    Price: 60
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: kr3_wall_1_151512
+  - Id: kr3_wall_2
+    Concept: 8
+    Sprite: {fileID: 21300000, guid: 33711f94ad4e50b42a8e33b6797f5793, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: kr3_wall_2_131310
+  - Id: lr1_wall_1
+    Concept: 9
+    Sprite: {fileID: 21300000, guid: 88ada477f9f3df341a9372f706b9512b, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: lr1_wall_1_131310
+  - Id: lr1_wall_2
+    Concept: 9
+    Sprite: {fileID: 21300000, guid: c79fe0831674e654e8dfc37ec1f0341c, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: lr1_wall_2_151512
+  - Id: lr2_wall1_1
+    Concept: 10
+    Sprite: {fileID: 21300000, guid: c365b645b33124d459d11ea33d109189, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: lr2_wall1_1_131310
+  - Id: lr2_wall1_2
+    Concept: 10
+    Sprite: {fileID: 21300000, guid: b67cdc502191f6d4f9ee9e536b64326f, type: 3}
+    UnlockType: 2
+    Price: 70
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: lr2_wall1_2_151512
+  - Id: lr2_wall2_1
+    Concept: 10
+    Sprite: {fileID: 21300000, guid: d71ab8b3e20912a4296546eccbdceaf3, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: lr2_wall2_1_151512
+  - Id: lr2_wall2_2
+    Concept: 10
+    Sprite: {fileID: 21300000, guid: d3119a3a2cf1955439341dc23e8f7ea4, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: lr2_wall2_2_131310
+  - Id: btr1_wall_1
+    Concept: 11
+    Sprite: {fileID: 21300000, guid: 6b51a3955c23fcc4b92f03eb741847e2, type: 3}
+    UnlockType: 2
+    Price: 50
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: btr1_wall_1_151512
+  - Id: btr1_wall_2
+    Concept: 11
+    Sprite: {fileID: 21300000, guid: 97100e0960a51e949b7316d9be094e6e, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: btr1_wall_2_131310
+  - Id: lock_room
+    Concept: 4
+    Sprite: {fileID: 21300000, guid: c0d3096279b9f1a468d52e2c90be5bfe, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: lock_room
+  - Id: kr2_wall_1
+    Concept: 7
+    Sprite: {fileID: 21300000, guid: 08919693db278ab4189a0b5d92369d7c, type: 3}
+    UnlockType: 2
+    Price: 80
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: kr2_wall_1_151512
+  - Id: kr2_wall_2
+    Concept: 7
+    Sprite: {fileID: 21300000, guid: 039ad3ed77302c443a72c550a45320f2, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: kr2_wall_2_131310
+  - Id: lr3_wall_1
+    Concept: 12
+    Sprite: {fileID: 21300000, guid: 1e1ffd19ae5838f48a000201792e4bed, type: 3}
+    UnlockType: 2
+    Price: 80
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: lr3_wall_1_151512
+  - Id: lr3_wall_2
+    Concept: 12
+    Sprite: {fileID: 21300000, guid: b44e8dac15a9400498d31585a269c323, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: lr3_wall_2_131310
+  - Id: btr3_wall_2
+    Concept: 14
+    Sprite: {fileID: 21300000, guid: 2a4de3a750bb529449ca03f9adb12102, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: btr3_wall_2_131310
+  - Id: btr3_wall_1
+    Concept: 14
+    Sprite: {fileID: 21300000, guid: 91e0961906010a440abebc5e51a96667, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: btr3_wall_1_151512
+  - Id: btr2_wall_2
+    Concept: 13
+    Sprite: {fileID: 21300000, guid: ac69d421f8c21654fad6839a0c8f1b19, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    IsDecor: 0
+    SpriteString: btr2_wall_2_131310
+  - Id: btr2_wall_1
+    Concept: 13
+    Sprite: {fileID: 21300000, guid: 1b7453aee4f25084093febebbfc372af, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    IsDecor: 1
+    SpriteString: btr2_wall_1_151512

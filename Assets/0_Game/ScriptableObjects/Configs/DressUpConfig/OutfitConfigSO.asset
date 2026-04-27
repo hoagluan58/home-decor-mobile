@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b88233200dc63143a8d1b2024d432e0, type: 3}
+  m_Name: OutfitConfigSO
+  m_EditorClassIdentifier: 
+  _sheetId: 1FLZ0xP3K8FZy48A4dRrWSsKj3_dj9b5JzOk_SwvsCVw
+  _gridId: 35266063
+  _tsvCachePath: 
+  _jsonCachePath: 
+  _datas:
+  - Id: dressUp_accessory_00
+    NameSkin: empty
+    Price: 0
+    OutfitType: 7
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 371dbc409d9180143bf835a3358a1f03, type: 3}
+    IconSpriteString: empty
+  - Id: dressUp_accessory_01
+    NameSkin: accessories/acc_1
+    Price: 0
+    OutfitType: 7
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: c83f69cb0405f344cba14de563e33136, type: 3}
+    IconSpriteString: acc_1
+  - Id: dressUp_accessory_02
+    NameSkin: accessories/acc_2
+    Price: 0
+    OutfitType: 7
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 908bb522917c5354486b1954a9e8a9f2, type: 3}
+    IconSpriteString: acc_2
+  - Id: dressUp_accessory_03
+    NameSkin: accessories/acc_3
+    Price: 0
+    OutfitType: 7
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 2c6c8dc246b06b146950359aa46c29e5, type: 3}
+    IconSpriteString: acc_3
+  - Id: dressUp_accessory_04
+    NameSkin: accessories/acc_4
+    Price: 0
+    OutfitType: 7
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 345426cd8942b454d840e43cc77852b9, type: 3}
+    IconSpriteString: acc_4
+  - Id: dressUp_dress_01
+    NameSkin: dress/dress_1
+    Price: 0
+    OutfitType: 4
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 0a7f4c79b041aaa4d99a599ed82939ad, type: 3}
+    IconSpriteString: dress_1
+  - Id: dressUp_dress_02
+    NameSkin: dress/dress_2
+    Price: 0
+    OutfitType: 4
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: b99c09f8ce8594441a7467996dc71aa4, type: 3}
+    IconSpriteString: dress_2
+  - Id: dressUp_dress_03
+    NameSkin: dress/dress_3
+    Price: 0
+    OutfitType: 4
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 3b2568d34a8be704284f4c6d455f5540, type: 3}
+    IconSpriteString: dress_3
+  - Id: dressUp_dress_04
+    NameSkin: dress/dress_4
+    Price: 0
+    OutfitType: 4
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: e3e271c8fe9ce3144a7f65c46f683fdd, type: 3}
+    IconSpriteString: dress_4
+  - Id: dressUp_face_01
+    NameSkin: face/face_1
+    Price: 0
+    OutfitType: 1
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 64654cda0deebeb45807fe4b283f8c80, type: 3}
+    IconSpriteString: face_1
+  - Id: dressUp_face_02
+    NameSkin: face/face_2
+    Price: 0
+    OutfitType: 1
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: f6e2a3f2413c7e949a6b27716f30aa3e, type: 3}
+    IconSpriteString: face_2
+  - Id: dressUp_face_03
+    NameSkin: face/face_3
+    Price: 0
+    OutfitType: 1
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: f8e151ef525b0ca42a0f816cd7358f29, type: 3}
+    IconSpriteString: face_3
+  - Id: dressUp_face_04
+    NameSkin: face/face_4
+    Price: 0
+    OutfitType: 1
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: a07627c8873054b4b941f1696919f93e, type: 3}
+    IconSpriteString: face_4
+  - Id: dressUp_hair_01
+    NameSkin: hair/hair_1
+    Price: 0
+    OutfitType: 0
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 327bcf0a7b58d944c911f6bef5e77dac, type: 3}
+    IconSpriteString: hair_1
+  - Id: dressUp_hair_02
+    NameSkin: hair/hair_2
+    Price: 0
+    OutfitType: 0
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 5ba2365e2ca2b32488ae59a28b590cc2, type: 3}
+    IconSpriteString: hair_2
+  - Id: dressUp_hair_03
+    NameSkin: hair/hair_3
+    Price: 0
+    OutfitType: 0
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: cfdeb2e2b932e04498a1b1d01bc3551b, type: 3}
+    IconSpriteString: hair_3
+  - Id: dressUp_hair_04
+    NameSkin: hair/hair_4
+    Price: 0
+    OutfitType: 0
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 4a1da7d3adb95fe4783dcc57f739c08d, type: 3}
+    IconSpriteString: hair_4
+  - Id: dressUp_hat_00
+    NameSkin: empty
+    Price: 0
+    OutfitType: 6
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 371dbc409d9180143bf835a3358a1f03, type: 3}
+    IconSpriteString: empty
+  - Id: dressUp_hat_01
+    NameSkin: hat/hat_1
+    Price: 0
+    OutfitType: 6
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 25447b949cf94f9498d4768d113af692, type: 3}
+    IconSpriteString: hat_1
+  - Id: dressUp_hat_02
+    NameSkin: hat/hat_2
+    Price: 0
+    OutfitType: 6
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 7ea0872251eb62a4085cb6edfa464356, type: 3}
+    IconSpriteString: hat_2
+  - Id: dressUp_hat_03
+    NameSkin: hat/hat_3
+    Price: 0
+    OutfitType: 6
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 04797ca470303c54ab05ba6b423118ef, type: 3}
+    IconSpriteString: hat_3
+  - Id: dressUp_hat_04
+    NameSkin: hat/hat_4
+    Price: 0
+    OutfitType: 6
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: c78d2a47ad7e3004a98d2ad7c24f082a, type: 3}
+    IconSpriteString: hat_4
+  - Id: dressUp_hat_05
+    NameSkin: hat/hat_5
+    Price: 0
+    OutfitType: 6
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 839cd6c75cbb55a4ea4fd05ca751c4dd, type: 3}
+    IconSpriteString: hat_5
+  - Id: dressUp_hat_06
+    NameSkin: hat/hat_6
+    Price: 0
+    OutfitType: 6
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: f77ff3b74b64eeb43857271f8889766b, type: 3}
+    IconSpriteString: hat_6
+  - Id: dressUp_hat_07
+    NameSkin: hat/hat_7
+    Price: 0
+    OutfitType: 6
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 1bfcda1c9267ae04e8eafa0470d56b59, type: 3}
+    IconSpriteString: hat_7
+  - Id: dressUp_hat_08
+    NameSkin: hat/hat_8
+    Price: 0
+    OutfitType: 6
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: cbcecba6d2526b1459ea2d7abefa1131, type: 3}
+    IconSpriteString: hat_8
+  - Id: dressUp_skirt_01
+    NameSkin: skirt/skirt_1
+    Price: 0
+    OutfitType: 3
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: c4ec065d0d984cf4a8b3e190ee7c5345, type: 3}
+    IconSpriteString: skirt_1
+  - Id: dressUp_skirt_02
+    NameSkin: skirt/skirt_2
+    Price: 0
+    OutfitType: 3
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: d895f22619cd40d4e8b23a9997d06e69, type: 3}
+    IconSpriteString: skirt_2
+  - Id: dressUp_skirt_03
+    NameSkin: skirt/skirt_3
+    Price: 0
+    OutfitType: 3
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 04675d21c6bea1640be86f63d93c67ba, type: 3}
+    IconSpriteString: skirt_3
+  - Id: dressUp_skirt_04
+    NameSkin: skirt/skirt_4
+    Price: 0
+    OutfitType: 3
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 0bc415b7c5426824fb541b2cf5f20930, type: 3}
+    IconSpriteString: skirt_4
+  - Id: dressUp_shirt_01
+    NameSkin: shirt/shirt_1
+    Price: 0
+    OutfitType: 2
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: b6022d445f19bb546a1274a8c502bc00, type: 3}
+    IconSpriteString: shirt_1
+  - Id: dressUp_shirt_02
+    NameSkin: shirt/shirt_2
+    Price: 0
+    OutfitType: 2
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 1ce5c72130c6c9d4e90f23dc7d05498e, type: 3}
+    IconSpriteString: shirt_2
+  - Id: dressUp_shirt_03
+    NameSkin: shirt/shirt_3
+    Price: 0
+    OutfitType: 2
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: b9d36633914b0ac4fac1e052c4a9a3e3, type: 3}
+    IconSpriteString: shirt_3
+  - Id: dressUp_shirt_04
+    NameSkin: shirt/shirt_4
+    Price: 0
+    OutfitType: 2
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 3a99364aff6ec2048aedb173621ce8eb, type: 3}
+    IconSpriteString: shirt_4
+  - Id: dressUp_shoe_00
+    NameSkin: empty
+    Price: 0
+    OutfitType: 5
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 371dbc409d9180143bf835a3358a1f03, type: 3}
+    IconSpriteString: empty
+  - Id: dressUp_shoe_01
+    NameSkin: shoe/shoe_1
+    Price: 0
+    OutfitType: 5
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: d24cddfad8f3a104eb6855a31ddc906f, type: 3}
+    IconSpriteString: shoe_1
+  - Id: dressUp_shoe_02
+    NameSkin: shoe/shoe_2
+    Price: 0
+    OutfitType: 5
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 3b57b24eda1599240a62b14c26f5fe9f, type: 3}
+    IconSpriteString: shoe_2
+  - Id: dressUp_shoe_03
+    NameSkin: shoe/shoe_3
+    Price: 0
+    OutfitType: 5
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 2ce05e238602a9c4c85b4783817fd252, type: 3}
+    IconSpriteString: shoe_3
+  - Id: dressUp_shoe_04
+    NameSkin: shoe/shoe_4
+    Price: 0
+    OutfitType: 5
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 8fc33c8aee506d84784af42bf231fb7e, type: 3}
+    IconSpriteString: shoe_4
+  - Id: dressUp_shoe_05
+    NameSkin: shoe/shoe_5
+    Price: 0
+    OutfitType: 5
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 27e1ae159d8f69842afac848ed6bf4a8, type: 3}
+    IconSpriteString: shoe_5
+  - Id: dressUp_shoe_06
+    NameSkin: shoe/shoe_6
+    Price: 0
+    OutfitType: 5
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: b6321d0349eab394cacb3fcde49fe2ab, type: 3}
+    IconSpriteString: shoe_6
+  - Id: dressUp_shoe_07
+    NameSkin: shoe/shoe_7
+    Price: 0
+    OutfitType: 5
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: d1cdb46186cec734f923dcb332a6ac65, type: 3}
+    IconSpriteString: shoe_7
+  - Id: dressUp_shoe_08
+    NameSkin: shoe/shoe_8
+    Price: 0
+    OutfitType: 5
+    UnlockType: 1
+    IconSprite: {fileID: 21300000, guid: 9784dc80652e16540ba17a0a04dea4d9, type: 3}
+    IconSpriteString: shoe_8
+  - Id: dressUp_skin_00
+    NameSkin: skin_white
+    Price: 0
+    OutfitType: 8
+    UnlockType: 0
+    IconSprite: {fileID: 21300000, guid: 91e4570bd89145149a4b06d052b84212, type: 3}
+    IconSpriteString: skin_1

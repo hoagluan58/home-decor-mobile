@@ -1,0 +1,16 @@
+yoyo_hammer.png
+size:2906,2906
+filter:Linear,Linear
+pma:true
+explosion/explosion_1
+bounds:1331,2,910,843
+explosion/explosion_2
+bounds:2,268,1327,1282
+explosion/explosion_3
+bounds:2,1552,1433,1352
+explosion/explosion_4
+bounds:1437,847,1093,1042
+explosion/explosion_5
+bounds:1437,1891,1142,1013
+hammer
+bounds:2243,227,518,618

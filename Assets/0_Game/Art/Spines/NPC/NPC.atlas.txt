@@ -1,0 +1,161 @@
+NPC.png
+size:2165,2165
+filter:Linear,Linear
+pma:true
+NPC_2/arm_L
+bounds:1907,46,149,161
+arm_L
+bounds:1907,46,149,161
+NPC_2/arm_R
+bounds:1796,376,126,171
+rotate:90
+arm_R
+bounds:1796,376,126,171
+rotate:90
+NPC_2/blusd
+bounds:1585,1927,530,236
+blusd
+bounds:1585,1927,530,236
+NPC_2/body
+bounds:1585,1467,269,436
+rotate:90
+body
+bounds:1585,1467,269,436
+rotate:90
+NPC_2/dress
+bounds:2,24,416,461
+rotate:90
+NPC_2/eybrow happy
+bounds:2066,655,419,32
+rotate:90
+NPC_2/eybrow normal
+bounds:2051,1076,458,44
+rotate:90
+NPC_2/eybrow tired
+bounds:2097,1106,428,53
+rotate:90
+NPC_2/eye happy
+bounds:968,106,467,126
+rotate:90
+NPC_2/eye normal
+bounds:1585,1738,573,187
+NPC_2/eye tired
+bounds:1760,982,483,156
+rotate:90
+NPC_2/forearm_L
+bounds:1586,34,157,179
+rotate:90
+forearm_L
+bounds:1586,34,157,179
+rotate:90
+NPC_2/forearm_R
+bounds:2023,1536,126,200
+forearm_R
+bounds:2023,1536,126,200
+NPC_2/forearm_shirt_L
+bounds:1796,504,171,184
+NPC_2/forearm_shirt_R
+bounds:1765,199,137,175
+NPC_2/hair
+bounds:2,1359,845,804
+NPC_2/hair_L
+bounds:921,575,325,888
+NPC_2/hair_R
+bounds:613,467,306,890
+NPC_2/hand_L
+bounds:1969,431,125,148
+hand_L
+bounds:1969,431,125,148
+NPC_2/hand_R
+bounds:2033,282,121,147
+hand_R
+bounds:2033,282,121,147
+NPC_2/hat
+bounds:1248,704,759,350
+rotate:90
+NPC_2/head
+bounds:849,1465,734,698
+head
+bounds:849,1465,734,698
+NPC_2/leg_L
+bounds:1926,705,138,278
+leg_L
+bounds:1926,705,138,278
+NPC_2/leg_R
+bounds:1769,690,155,290
+leg_R
+bounds:1769,690,155,290
+NPC_2/mouth happy
+bounds:1969,581,122,77
+rotate:90
+NPC_2/mouth normal
+bounds:849,1382,81,40
+rotate:90
+NPC_2/mouth tired
+bounds:2100,963,141,55
+rotate:90
+mouth tired
+bounds:2100,963,141,55
+rotate:90
+NPC_2/shoe_L
+bounds:1904,209,127,165
+NPC_2/shoe_R
+bounds:1446,53,138,181
+NPC_2/smoke tired
+bounds:1585,461,216,209
+rotate:90
+smoke tired
+bounds:1585,461,216,209
+rotate:90
+NPC_2/thig_L
+bounds:1600,679,167,288
+thig_L
+bounds:1600,679,167,288
+NPC_2/thig_R
+bounds:1592,193,171,266
+thig_R
+bounds:1592,193,171,266
+eybrow happy
+bounds:1257,188,514,49
+rotate:90
+eybrow normal
+bounds:1189,62,511,66
+rotate:90
+eybrow tired
+bounds:1096,99,474,91
+rotate:90
+eye happy
+bounds:841,22,443,125
+rotate:90
+eye normal
+bounds:1600,969,496,158
+rotate:90
+eye tired
+bounds:1918,985,480,131
+rotate:90
+forearm_shirt_L
+bounds:1257,2,184,187
+rotate:90
+forearm_shirt_R
+bounds:1767,24,138,173
+hair
+bounds:2,442,915,609
+rotate:90
+mouth happy
+bounds:968,20,124,84
+mouth normal
+bounds:2117,2007,156,26
+rotate:90
+pant
+bounds:1308,236,282,184
+pant_L
+bounds:465,13,184,427
+pant_R
+bounds:651,54,188,411
+shirt
+bounds:1308,422,275,280
+shoe_L
+bounds:2058,85,123,66
+rotate:90
+shoe_R
+bounds:2033,210,128,70

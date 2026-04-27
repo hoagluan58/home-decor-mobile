@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6de49c655f8dbfe4595c2fa885bd1c61, type: 3}
+  m_Name: CharacterConfigSO
+  m_EditorClassIdentifier: 
+  _sheetId: 1FLZ0xP3K8FZy48A4dRrWSsKj3_dj9b5JzOk_SwvsCVw
+  _gridId: 1163154561
+  _tsvCachePath: 
+  _jsonCachePath: 
+  _datas:
+  - Id: CH_01
+    Name: a
+    Icon: {fileID: 21300000, guid: 502ddbaca69e84245890812ed4d23eaa, type: 3}
+    SkeletonDataAsset: {fileID: 11400000, guid: 66464e4a68c8e264c8ea7863c4547be2, type: 2}
+    OutfitConfigSo: {fileID: 11400000, guid: 1f664105a1309a1449a375e21030671e, type: 2}
+    OutfitDefault:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_04
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_04
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_04
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_04
+    - OutfitType: 1
+      OutfitId: dressUp_face_04
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_04
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_04
+    StringOutfitDefault: dressUp_hair_04;dressUp_shirt_04;dressUp_skirt_04;dressUp_accessory_04;dressUp_face_04;dressUp_shoe_04;dressUp_skin_00;dressUp_hat_04
+    StringIcon: Outfit_4
+    StringOutfitSO: OutfitConfigSO
+    StringSkeletonAsset: left_or_right_chibi_SkeletonData
+  - Id: CH_04
+    Name: a
+    Icon: {fileID: 21300000, guid: 3ecf53a77bd419d4c9feea0a2ab85b3b, type: 3}
+    SkeletonDataAsset: {fileID: 11400000, guid: 66464e4a68c8e264c8ea7863c4547be2, type: 2}
+    OutfitConfigSo: {fileID: 11400000, guid: 1f664105a1309a1449a375e21030671e, type: 2}
+    OutfitDefault:
+    - OutfitType: 1
+      OutfitId: dressUp_face_01
+    - OutfitType: 0
+      OutfitId: dressUp_hair_01
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_01
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_01
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_01
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_01
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_01
+    StringOutfitDefault: dressUp_face_01;dressUp_hair_01;dressUp_skirt_01;dressUp_shirt_01;dressUp_accessory_01;dressUp_shoe_01;dressUp_skin_00;dressUp_hat_01
+    StringIcon: Outfit_1
+    StringOutfitSO: OutfitConfigSO
+    StringSkeletonAsset: left_or_right_chibi_SkeletonData
+  - Id: CH_02
+    Name: a
+    Icon: {fileID: 21300000, guid: f99e4b9035dffc04498b949b53d0896f, type: 3}
+    SkeletonDataAsset: {fileID: 11400000, guid: 66464e4a68c8e264c8ea7863c4547be2, type: 2}
+    OutfitConfigSo: {fileID: 11400000, guid: 1f664105a1309a1449a375e21030671e, type: 2}
+    OutfitDefault:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_02
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_02
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_02
+    - OutfitType: 1
+      OutfitId: dressUp_face_02
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_02
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_02
+    StringOutfitDefault: dressUp_hair_02;dressUp_shirt_02;dressUp_skirt_02;dressUp_face_02;dressUp_shoe_02;dressUp_skin_00;dressUp_hat_02
+    StringIcon: Outfit_2
+    StringOutfitSO: OutfitConfigSO
+    StringSkeletonAsset: left_or_right_chibi_SkeletonData
+  - Id: CH_03
+    Name: a
+    Icon: {fileID: 21300000, guid: 4b89b478f0e278f4e8a05871655f6b34, type: 3}
+    SkeletonDataAsset: {fileID: 11400000, guid: 66464e4a68c8e264c8ea7863c4547be2, type: 2}
+    OutfitConfigSo: {fileID: 11400000, guid: 1f664105a1309a1449a375e21030671e, type: 2}
+    OutfitDefault:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_03
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_03
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_03
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_03
+    - OutfitType: 1
+      OutfitId: dressUp_face_03
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_03
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_03
+    StringOutfitDefault: dressUp_hair_03;dressUp_accessory_03;dressUp_shirt_03;dressUp_skirt_03;dressUp_face_03;dressUp_shoe_03;dressUp_skin_00;dressUp_hat_03
+    StringIcon: Outfit_3
+    StringOutfitSO: OutfitConfigSO
+    StringSkeletonAsset: left_or_right_chibi_SkeletonData

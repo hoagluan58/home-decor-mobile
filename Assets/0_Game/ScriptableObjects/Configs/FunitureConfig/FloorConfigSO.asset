@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 520b7b71564fca7498fb8d704534a54b, type: 3}
+  m_Name: FloorConfigSO
+  m_EditorClassIdentifier: 
+  _sheetId: 1hyDu1UQ-5rWI6K9xuprfC3vk9HjUGNqZKrgVP69ZT1c
+  _gridId: 64083628
+  _tsvCachePath: 
+  _jsonCachePath: 
+  _datas:
+  - Id: mr_ground_1
+    Sprite: {fileID: 21300000, guid: 7793e61c2d36d9241a9d7f461074a10c, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 1
+    Concept: 2
+    IsDecor: 0
+    SpriteString: mr_tile_1
+  - Id: mr_ground_2
+    Sprite: {fileID: 21300000, guid: acac6b0769706f6409c59c998b96b3bb, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 1
+    Concept: 2
+    IsDecor: 0
+    SpriteString: mr_tile_2
+  - Id: nr1_ground_9
+    Sprite: {fileID: 21300000, guid: 28659a310a9010f41aa7faf34407337e, type: 3}
+    UnlockType: 2
+    Price: 40
+    IsMessy: 0
+    Concept: 4
+    IsDecor: 1
+    SpriteString: nr1_ground_9_020201
+  - Id: nr1_ground_8
+    Sprite: {fileID: 21300000, guid: bc8af3a86848fc743874f8c471154423, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    Concept: 4
+    IsDecor: 1
+    SpriteString: nr1_ground_8_020201
+  - Id: nr1_ground_7
+    Sprite: {fileID: 21300000, guid: ec6cca23d95bc2049ada1eda217b4337, type: 3}
+    UnlockType: 2
+    Price: 30
+    IsMessy: 0
+    Concept: 4
+    IsDecor: 1
+    SpriteString: nr1_ground_7_020201
+  - Id: nr1_ground_6
+    Sprite: {fileID: 21300000, guid: db0c923372fdb7b4fa881a31fae9f63b, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    Concept: 4
+    IsDecor: 1
+    SpriteString: nr1_ground_6_020201
+  - Id: nr1_ground_5
+    Sprite: {fileID: 21300000, guid: 2d2cf70f6d723e243b6ed8566f753cef, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    Concept: 4
+    IsDecor: 1
+    SpriteString: nr1_ground_5_020201
+  - Id: nr1_ground_4
+    Sprite: {fileID: 21300000, guid: 90446c5941e60ed448443f73d001b6d3, type: 3}
+    UnlockType: 2
+    Price: 50
+    IsMessy: 0
+    Concept: 4
+    IsDecor: 1
+    SpriteString: nr1_ground_4_020201
+  - Id: nr1_ground_3
+    Sprite: {fileID: 21300000, guid: bf192ea708ee7304b9721b32c3a496cd, type: 3}
+    UnlockType: 2
+    Price: 50
+    IsMessy: 0
+    Concept: 4
+    IsDecor: 1
+    SpriteString: nr1_ground_3_020201
+  - Id: nr1_ground_2
+    Sprite: {fileID: 21300000, guid: a31ede8b1471a644d93d681f2d3d9d2c, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    Concept: 4
+    IsDecor: 1
+    SpriteString: nr1_ground_2_020201
+  - Id: br1_ground_1
+    Sprite: {fileID: 21300000, guid: 2a6080fd81c5ed647a003a0d208ac367, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    Concept: 1
+    IsDecor: 1
+    SpriteString: br1_ground_1_020200
+  - Id: br2_ground_1
+    Sprite: {fileID: 21300000, guid: ddda98aa3666ad34889e75474af5067c, type: 3}
+    UnlockType: 2
+    Price: 40
+    IsMessy: 0
+    Concept: 3
+    IsDecor: 1
+    SpriteString: br2_ground_1_020201
+  - Id: br3_ground_1
+    Sprite: {fileID: 21300000, guid: 6f708ef664be9e1499dfe0d82e057737, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    Concept: 5
+    IsDecor: 1
+    SpriteString: br3_ground_1_020200
+  - Id: kr1_ground_1
+    Sprite: {fileID: 21300000, guid: 338dec757adc9434695e308f68961b07, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    Concept: 6
+    IsDecor: 1
+    SpriteString: kr1_ground_1_0202
+  - Id: kr3_ground_1
+    Sprite: {fileID: 21300000, guid: 3ae69328e0f2744499e16b322efdf613, type: 3}
+    UnlockType: 2
+    Price: 60
+    IsMessy: 0
+    Concept: 8
+    IsDecor: 1
+    SpriteString: kr3_ground_1_020200
+  - Id: lr1_ground_1
+    Sprite: {fileID: 21300000, guid: 46c990a31fe88f742bd1a43349861168, type: 3}
+    UnlockType: 2
+    Price: 40
+    IsMessy: 0
+    Concept: 9
+    IsDecor: 1
+    SpriteString: lr1_ground_1_0202
+  - Id: lr2_ground_1
+    Sprite: {fileID: 21300000, guid: 85c89f6a5138b694d8b2e2648a56a6fd, type: 3}
+    UnlockType: 1
+    Price: 0
+    IsMessy: 0
+    Concept: 10
+    IsDecor: 1
+    SpriteString: lr2_ground_1_0202
+  - Id: lr2_ground_2
+    Sprite: {fileID: 21300000, guid: 14b513fe3cc854c47abdb2dc257e6883, type: 3}
+    UnlockType: 0
+    Price: 0
+    IsMessy: 0
+    Concept: 10
+    IsDecor: 1
+    SpriteString: lr2_ground_2_0202
+  - Id: lr3_ground_1
+    Sprite: {fileID: 21300000, guid: 25ded2f97c0ec5a48879b01f78153f4c, type: 3}
+    UnlockType: 2
+    Price: 50
+    IsMessy: 0
+    Concept: 12
+    IsDecor: 1
+    SpriteString: lr3_ground_1_020201
+  - Id: btr1_ground_1
+    Sprite: {fileID: 21300000, guid: 6be815fe89ba9ed4bb7e067713c4e1a2, type: 3}
+    UnlockType: 2
+    Price: 50
+    IsMessy: 0
+    Concept: 11
+    IsDecor: 1
+    SpriteString: btr1_ground_1_020201
+  - Id: btr3_ground_1
+    Sprite: {fileID: 21300000, guid: 6d5239a0e9acd8549b01572f7ec08629, type: 3}
+    UnlockType: 2
+    Price: 50
+    IsMessy: 0
+    Concept: 14
+    IsDecor: 1
+    SpriteString: btr3_ground_1_020201
+  - Id: btr2_ground_1
+    Sprite: {fileID: 21300000, guid: dfc9561c918ef924d864f67ee3af731c, type: 3}
+    UnlockType: 2
+    Price: 50
+    IsMessy: 0
+    Concept: 13
+    IsDecor: 1
+    SpriteString: btr2_ground_1_020201
+  - Id: kr2_ground_1
+    Sprite: {fileID: 21300000, guid: 9d1ed19b88cfe2544a8b833e780a4e7f, type: 3}
+    UnlockType: 2
+    Price: 50
+    IsMessy: 0
+    Concept: 7
+    IsDecor: 1
+    SpriteString: kr2_ground_1_020201

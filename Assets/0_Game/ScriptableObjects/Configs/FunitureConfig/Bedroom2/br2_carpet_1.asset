@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d2e50d8814da5b5c0547f1d5a8ec8, type: 3}
+  m_Name: br2_carpet_1
+  m_EditorClassIdentifier: 
+  Config:
+    Id: br2_carpet_1
+    Size: {x: 6, y: 6, z: 0.1}
+    FurnitureName: Carpet
+    Sprite: {fileID: 21300000, guid: 4fef52a33071a43449befb9f477ab34d, type: 3}
+    Category: 4
+    SubCategory: 10
+    Concept: 3
+    UnlockType: 1
+    Price: 0
+    TrashType: 0
+    FurnitureMoveType: 0
+    CanPlaceOnOthers: 0
+    CanBePlaceOn: 0
+    SurfaceSize: {x: 0, y: 0, z: 0}
+    SurfaceOffset: {x: 0, y: 0, z: 0}
+    BaseDirection: 0
+    CanFlip: 1
+    IsAutoFlip: 0
+    IsWindow: 0
+    IsCarpet: 1
+    IsSpecial: 0
+    IsMessy: 0
+    Prefab: {fileID: 6769103982968082478, guid: c4f4d525d7712954cb39644e95903f44, type: 3}
+    SizeString: 6,6,0.1
+    SurfaceSizeString: 0,0,0
+    SurfaceOffsetString: 0,0,0

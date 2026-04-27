@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Furniture
+  - DecorMode/DeleteButton
+  - DecorMode/FlipButton
+  - DecorMode/ConfirmButton
+  - DecorOptionButton
+  - NPC
+  - Car
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - WorldUI
+  - BGCanvas
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UICanvas
+    uniqueID: 2202355129
+    locked: 0
+  - name: UICharacter
+    uniqueID: 1885280555
+    locked: 0
+  - name: DecorTutorial
+    uniqueID: 2287612783
+    locked: 0
+  - name: Transist
+    uniqueID: 1171915333
+    locked: 0
+  - name: AlwaysOnTop
+    uniqueID: 1045219861
+    locked: 0

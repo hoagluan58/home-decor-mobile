@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d2e50d8814da5b5c0547f1d5a8ec8, type: 3}
+  m_Name: MainCharacter
+  m_EditorClassIdentifier: 
+  Config:
+    Id: main_character
+    Size: {x: 2, y: 2, z: 3}
+    FurnitureName: Fridge
+    Sprite: {fileID: 0}
+    Category: 0
+    SubCategory: 0
+    Concept: 0
+    UnlockType: 0
+    Price: 0
+    TrashType: 0
+    FurnitureMoveType: 0
+    CanPlaceOnOthers: 0
+    CanBePlaceOn: 0
+    SurfaceSize: {x: 0, y: 0, z: 0}
+    SurfaceOffset: {x: 0, y: 0, z: 0}
+    BaseDirection: 1
+    CanFlip: 0
+    IsAutoFlip: 0
+    IsCarpet: 0
+    IsSpecial: 0
+    IsMessy: 0
+    Prefab: {fileID: 3584509838072797878, guid: 691ff461ad925f84c8b88f21ea33b256, type: 3}
+    SizeString: 3,3,4
+    SurfaceSizeString: 3,3,0
+    SurfaceOffsetString: 0,0,4

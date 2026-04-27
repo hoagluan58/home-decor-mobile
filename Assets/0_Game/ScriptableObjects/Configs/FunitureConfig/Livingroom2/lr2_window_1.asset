@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d2e50d8814da5b5c0547f1d5a8ec8, type: 3}
+  m_Name: lr2_window_1
+  m_EditorClassIdentifier: 
+  Config:
+    Id: lr2_window_1
+    Size: {x: 10, y: 1, z: 8}
+    FurnitureName: Window
+    Sprite: {fileID: 21300000, guid: 2b386ef4fbe28b745a0c6d4d540bc957, type: 3}
+    Category: 2
+    SubCategory: 3
+    Concept: 10
+    UnlockType: 2
+    Price: 100
+    TrashType: 0
+    FurnitureMoveType: 1
+    CanPlaceOnOthers: 0
+    CanBePlaceOn: 0
+    SurfaceSize: {x: 10, y: 1, z: 0}
+    SurfaceOffset: {x: 0, y: 0, z: 8}
+    BaseDirection: 0
+    CanFlip: 1
+    IsAutoFlip: 1
+    IsWindow: 1
+    IsCarpet: 0
+    IsSpecial: 0
+    IsMessy: 0
+    Prefab: {fileID: 1021611832897654864, guid: 4599616b0f5abbb4890e92d021bedc82, type: 3}
+    SizeString: 10,1,8
+    SurfaceSizeString: 10,1,0
+    SurfaceOffsetString: 0,0,8

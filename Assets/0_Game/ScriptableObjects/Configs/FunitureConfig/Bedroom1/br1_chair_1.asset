@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d2e50d8814da5b5c0547f1d5a8ec8, type: 3}
+  m_Name: br1_chair_1
+  m_EditorClassIdentifier: 
+  Config:
+    Id: br1_chair_1
+    Size: {x: 3, y: 3, z: 3}
+    FurnitureName: Chair
+    Sprite: {fileID: 21300000, guid: 7d0400227c0bd42459f9743f5868f16e, type: 3}
+    Category: 3
+    SubCategory: 8
+    Concept: 1
+    UnlockType: 0
+    Price: 40
+    TrashType: 0
+    FurnitureMoveType: 0
+    CanPlaceOnOthers: 0
+    CanBePlaceOn: 0
+    SurfaceSize: {x: 0, y: 0, z: 0}
+    SurfaceOffset: {x: 0, y: 0, z: 0}
+    BaseDirection: 0
+    CanFlip: 1
+    IsAutoFlip: 0
+    IsWindow: 0
+    IsCarpet: 0
+    IsSpecial: 0
+    IsMessy: 0
+    Prefab: {fileID: 3966329531440630903, guid: 27835b86da2fdad47a7b3fcfd1079c3a, type: 3}
+    SizeString: 3,3,3
+    SurfaceSizeString: 0,0,0
+    SurfaceOffsetString: 0,0,0

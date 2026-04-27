@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d2e50d8814da5b5c0547f1d5a8ec8, type: 3}
+  m_Name: Fur_mr_bed_2
+  m_EditorClassIdentifier: 
+  Config:
+    Id: mr_bed_2
+    Size: {x: 7, y: 4, z: 3}
+    FurnitureName: Bed
+    Sprite: {fileID: 21300000, guid: a31808a0f066ed348aa82335f64ecd88, type: 3}
+    Category: 3
+    SubCategory: 6
+    Concept: 2
+    UnlockType: 0
+    Price: 0
+    TrashType: 0
+    FurnitureMoveType: 0
+    CanPlaceOnOthers: 0
+    CanBePlaceOn: 1
+    SurfaceSize: {x: 5, y: 4, z: 0}
+    SurfaceOffset: {x: 1, y: 0, z: 2}
+    BaseDirection: 0
+    CanFlip: 1
+    IsAutoFlip: 0
+    IsCarpet: 0
+    IsSpecial: 0
+    IsMessy: 1
+    Prefab: {fileID: 5074245953453215515, guid: 8eae5b96bc449fc4f8c639ff1ba5773c, type: 3}
+    SizeString: 7,4,3
+    SurfaceSizeString: 5,4,0
+    SurfaceOffsetString: 1,0,2

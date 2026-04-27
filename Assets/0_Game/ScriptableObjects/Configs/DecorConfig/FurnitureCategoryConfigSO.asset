@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5628272dada5449a82909fd1062b42a7, type: 3}
+  m_Name: FurnitureCategoryConfigSO
+  m_EditorClassIdentifier: 
+  Config:
+  - MainCategory: 1
+    MainCategoryName: Basic
+    CategoryIcon: {fileID: 21300000, guid: 327595070dd8bbd41851dbb35c78a384, type: 3}
+    SelectCategoryIcon: {fileID: 21300000, guid: 05a5f105079332647aad45be8b2ac929, type: 3}
+    SubCategories:
+    - SubCategory: 2
+      SubCategoryName: Ground
+      IconSprite: {fileID: 21300000, guid: 5a9cf34ef2714784d968405cc118a2ae, type: 3}
+    - SubCategory: 1
+      SubCategoryName: Wall
+      IconSprite: {fileID: 21300000, guid: 4d07ed95d026b6b49bc141cd59c87693, type: 3}
+  - MainCategory: 2
+    MainCategoryName: Wall
+    CategoryIcon: {fileID: 21300000, guid: 05bebdb86446d6f42be93d9538d73241, type: 3}
+    SelectCategoryIcon: {fileID: 21300000, guid: 8f0e10bd71d71e84ea2938a965269c75, type: 3}
+    SubCategories:
+    - SubCategory: 3
+      SubCategoryName: Window
+      IconSprite: {fileID: 21300000, guid: 78734710eeea0eb4eaac94460520e77e, type: 3}
+    - SubCategory: 4
+      SubCategoryName: Accessory
+      IconSprite: {fileID: 21300000, guid: 7099ca482126f8947896c1c87fb956e6, type: 3}
+    - SubCategory: 5
+      SubCategoryName: Shelf
+      IconSprite: {fileID: 21300000, guid: dc1cbffa00434154ab23b4f9b3016183, type: 3}
+  - MainCategory: 3
+    MainCategoryName: Furniture
+    CategoryIcon: {fileID: 21300000, guid: 5920ca9d849d8d843ad756b1df588ea9, type: 3}
+    SelectCategoryIcon: {fileID: 21300000, guid: de35a950f7f98464bb7e691817e7e6b0, type: 3}
+    SubCategories:
+    - SubCategory: 6
+      SubCategoryName: Bed
+      IconSprite: {fileID: 21300000, guid: dfa3fb460afa7204c8e4f389881b9730, type: 3}
+    - SubCategory: 9
+      SubCategoryName: Cabinet
+      IconSprite: {fileID: 21300000, guid: 5d98e9f1a6440f848aaf8cdf2be14348, type: 3}
+    - SubCategory: 8
+      SubCategoryName: Sofa
+      IconSprite: {fileID: 21300000, guid: c68677d98dc8291439286ce7f530a83c, type: 3}
+    - SubCategory: 7
+      SubCategoryName: Table
+      IconSprite: {fileID: 21300000, guid: 192ddda3ab503614c8247eb257aa5b77, type: 3}
+  - MainCategory: 4
+    MainCategoryName: Accessory
+    CategoryIcon: {fileID: 21300000, guid: d55c6ef3d1783774080360e15a8a6d7b, type: 3}
+    SelectCategoryIcon: {fileID: 21300000, guid: 5660ffb55a020e244b90bf0b4230ca8d, type: 3}
+    SubCategories:
+    - SubCategory: 10
+      SubCategoryName: Carpet
+      IconSprite: {fileID: 21300000, guid: 0f2ffe831bd52bf4abc6fed2a94e6ebe, type: 3}
+    - SubCategory: 11
+      SubCategoryName: Tre
+      IconSprite: {fileID: 21300000, guid: c96648339536a1843b8a7e34984aab25, type: 3}
+    - SubCategory: 12
+      SubCategoryName: Gear
+      IconSprite: {fileID: 21300000, guid: 7099ca482126f8947896c1c87fb956e6, type: 3}
+  - MainCategory: 5
+    MainCategoryName: Ornament
+    CategoryIcon: {fileID: 21300000, guid: af277698b23f31a47826b803300fbc73, type: 3}
+    SelectCategoryIcon: {fileID: 21300000, guid: 3d2876b9e124a744ca95c10221eb8dab, type: 3}
+    SubCategories:
+    - SubCategory: 13
+      SubCategoryName: Electric
+      IconSprite: {fileID: 21300000, guid: ceaf9c95d23eb734696f26b983986a36, type: 3}
+    - SubCategory: 14
+      SubCategoryName: Plants
+      IconSprite: {fileID: 21300000, guid: 96196b2aa21becc42868209f880f269d, type: 3}
+    - SubCategory: 15
+      SubCategoryName: Other
+      IconSprite: {fileID: 21300000, guid: 39d37df7396f46143b2fbaec29232b4c, type: 3}
+  - MainCategory: 6
+    MainCategoryName: Other
+    CategoryIcon: {fileID: 21300000, guid: c57e9fa9190f5924f8d44b93c66eff78, type: 3}
+    SelectCategoryIcon: {fileID: 21300000, guid: 566b07a442f0cd94aa25de29b186b05d, type: 3}
+    SubCategories:
+    - SubCategory: 16
+      SubCategoryName: Food
+      IconSprite: {fileID: 21300000, guid: 8d3bfb4b913f66240a0a1adee510dd4f, type: 3}
+    - SubCategory: 17
+      SubCategoryName: Dining
+      IconSprite: {fileID: 21300000, guid: 61183c392a46a2d4bb38895d51043c1d, type: 3}
+    - SubCategory: 18
+      SubCategoryName: Bath
+      IconSprite: {fileID: 21300000, guid: c46c1b7a95040e4459ff6130db3f6237, type: 3}

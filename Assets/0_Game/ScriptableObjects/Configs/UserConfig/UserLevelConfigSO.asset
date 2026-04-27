@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b99f9b598a95498408fc58356758d102, type: 3}
+  m_Name: UserLevelConfigSO
+  m_EditorClassIdentifier: 
+  _sheetId: 1DDNcrEfZ4WKlodgy5matrcV02rbt4sKzYu6-cPZ2Gek
+  _gridId: 0
+  _tsvCachePath: 
+  _jsonCachePath: 
+  _datas:
+  - Level: 1
+    ExpNeed: 5
+  - Level: 2
+    ExpNeed: 7
+  - Level: 3
+    ExpNeed: 10
+  - Level: 4
+    ExpNeed: 12
+  - Level: 5
+    ExpNeed: 15
+  - Level: 6
+    ExpNeed: 24
+  - Level: 7
+    ExpNeed: 32
+  - Level: 8
+    ExpNeed: 40
+  - Level: 9
+    ExpNeed: 50
+  - Level: 10
+    ExpNeed: 60

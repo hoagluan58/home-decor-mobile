@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93a025946f62b6419cb845640b3e079, type: 3}
+  m_Name: BotConfigSO
+  m_EditorClassIdentifier: 
+  _sheetId: 1xQhjtignY1Y2pPLdIJVc6CSgPTbDC-LUSFi8NJCnWdk
+  _gridId: 0
+  _tsvCachePath: 
+  _jsonCachePath: 
+  _datas:
+  - Id: 1
+    Name: Lana
+    AvatarSprite: {fileID: 21300000, guid: 431ec2b6603522b44a2d403fd33d6a5e, type: 3}
+    OutfitDatas:
+    - OutfitType: 1
+      OutfitId: dressUp_face_04
+    - OutfitType: 0
+      OutfitId: dressUp_hair_01
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_01
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_01
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_01
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_01
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_01
+    AvatarSpriteString: AvatarBot_1
+    OutfitDataString: dressUp_face_04;dressUp_hair_01;dressUp_skirt_01;dressUp_shirt_01;dressUp_accessory_01;dressUp_shoe_01;dressUp_skin_00;dressUp_hat_01
+  - Id: 2
+    Name: Linda
+    AvatarSprite: {fileID: 21300000, guid: 5e3dcc29fc7460b4fb1f76e3a04fc534, type: 3}
+    OutfitDatas:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_02
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_04
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_02
+    - OutfitType: 1
+      OutfitId: dressUp_face_02
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_02
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_02
+    AvatarSpriteString: AvatarBot_3
+    OutfitDataString: dressUp_hair_02;dressUp_shirt_04;dressUp_skirt_02;dressUp_face_02;dressUp_shoe_02;dressUp_skin_00;dressUp_hat_02
+  - Id: 3
+    Name: Leila
+    AvatarSprite: {fileID: 21300000, guid: 431ec2b6603522b44a2d403fd33d6a5e, type: 3}
+    OutfitDatas:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_03
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_03
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_03
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_03
+    - OutfitType: 1
+      OutfitId: dressUp_face_03
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_03
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_03
+    AvatarSpriteString: AvatarBot_1
+    OutfitDataString: dressUp_hair_03;dressUp_accessory_03;dressUp_shirt_03;dressUp_skirt_03;dressUp_face_03;dressUp_shoe_03;dressUp_skin_00;dressUp_hat_03
+  - Id: 4
+    Name: Yumi
+    AvatarSprite: {fileID: 21300000, guid: dfdb5ae433ecae84b95e906e8ef68725, type: 3}
+    OutfitDatas:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_04
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_04
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_04
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_04
+    - OutfitType: 1
+      OutfitId: dressUp_face_04
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_04
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_04
+    AvatarSpriteString: AvatarBot_2
+    OutfitDataString: dressUp_hair_04;dressUp_shirt_04;dressUp_skirt_04;dressUp_accessory_04;dressUp_face_04;dressUp_shoe_04;dressUp_skin_00;dressUp_hat_04
+  - Id: 5
+    Name: Wendy
+    AvatarSprite: {fileID: 21300000, guid: 5e3dcc29fc7460b4fb1f76e3a04fc534, type: 3}
+    OutfitDatas:
+    - OutfitType: 1
+      OutfitId: dressUp_face_04
+    - OutfitType: 0
+      OutfitId: dressUp_hair_01
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_01
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_02
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_01
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_01
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_01
+    AvatarSpriteString: AvatarBot_3
+    OutfitDataString: dressUp_face_04;dressUp_hair_01;dressUp_skirt_01;dressUp_shirt_02;dressUp_accessory_01;dressUp_shoe_01;dressUp_skin_00;dressUp_hat_01
+  - Id: 6
+    Name: Maria
+    AvatarSprite: {fileID: 21300000, guid: dfdb5ae433ecae84b95e906e8ef68725, type: 3}
+    OutfitDatas:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_02
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_02
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_02
+    - OutfitType: 1
+      OutfitId: dressUp_face_02
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_02
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_02
+    AvatarSpriteString: AvatarBot_2
+    OutfitDataString: dressUp_hair_02;dressUp_shirt_02;dressUp_skirt_02;dressUp_face_02;dressUp_shoe_02;dressUp_skin_00;dressUp_hat_02
+  - Id: 7
+    Name: Amie
+    AvatarSprite: {fileID: 21300000, guid: dfdb5ae433ecae84b95e906e8ef68725, type: 3}
+    OutfitDatas:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_04
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_03
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_03
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_03
+    - OutfitType: 1
+      OutfitId: dressUp_face_03
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_03
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_03
+    AvatarSpriteString: AvatarBot_2
+    OutfitDataString: dressUp_hair_04;dressUp_accessory_03;dressUp_shirt_03;dressUp_skirt_03;dressUp_face_03;dressUp_shoe_03;dressUp_skin_00;dressUp_hat_03
+  - Id: 8
+    Name: Mary
+    AvatarSprite: {fileID: 21300000, guid: 5e3dcc29fc7460b4fb1f76e3a04fc534, type: 3}
+    OutfitDatas:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_02
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_04
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_01
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_01
+    - OutfitType: 1
+      OutfitId: dressUp_face_02
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_04
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_04
+    AvatarSpriteString: AvatarBot_3
+    OutfitDataString: dressUp_hair_02;dressUp_accessory_04;dressUp_shirt_01;dressUp_skirt_01;dressUp_face_02;dressUp_shoe_04;dressUp_skin_00;dressUp_hat_04
+  - Id: 9
+    Name: Kelly
+    AvatarSprite: {fileID: 21300000, guid: 431ec2b6603522b44a2d403fd33d6a5e, type: 3}
+    OutfitDatas:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_03
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_01
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_02
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_02
+    - OutfitType: 1
+      OutfitId: dressUp_face_01
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_04
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_03
+    AvatarSpriteString: AvatarBot_1
+    OutfitDataString: dressUp_hair_03;dressUp_accessory_01;dressUp_shirt_02;dressUp_skirt_02;dressUp_face_01;dressUp_shoe_04;dressUp_skin_00;dressUp_hat_03
+  - Id: 10
+    Name: Elly
+    AvatarSprite: {fileID: 21300000, guid: 431ec2b6603522b44a2d403fd33d6a5e, type: 3}
+    OutfitDatas:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_01
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_02
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_03
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_04
+    - OutfitType: 1
+      OutfitId: dressUp_face_02
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_03
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_04
+    AvatarSpriteString: AvatarBot_1
+    OutfitDataString: dressUp_hair_01;dressUp_accessory_02;dressUp_shirt_03;dressUp_skirt_04;dressUp_face_02;dressUp_shoe_03;dressUp_skin_00;dressUp_hat_04
+  - Id: 11
+    Name: Sami
+    AvatarSprite: {fileID: 21300000, guid: 431ec2b6603522b44a2d403fd33d6a5e, type: 3}
+    OutfitDatas:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_03
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_02
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_04
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_01
+    - OutfitType: 1
+      OutfitId: dressUp_face_03
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_02
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_02
+    AvatarSpriteString: AvatarBot_1
+    OutfitDataString: dressUp_hair_03;dressUp_accessory_02;dressUp_shirt_04;dressUp_skirt_01;dressUp_face_03;dressUp_shoe_02;dressUp_skin_00;dressUp_hat_02
+  - Id: 12
+    Name: Loli
+    AvatarSprite: {fileID: 21300000, guid: 431ec2b6603522b44a2d403fd33d6a5e, type: 3}
+    OutfitDatas:
+    - OutfitType: 0
+      OutfitId: dressUp_hair_04
+    - OutfitType: 7
+      OutfitId: dressUp_accessory_02
+    - OutfitType: 2
+      OutfitId: dressUp_shirt_01
+    - OutfitType: 3
+      OutfitId: dressUp_skirt_03
+    - OutfitType: 1
+      OutfitId: dressUp_face_02
+    - OutfitType: 5
+      OutfitId: dressUp_shoe_01
+    - OutfitType: 8
+      OutfitId: dressUp_skin_00
+    - OutfitType: 6
+      OutfitId: dressUp_hat_01
+    AvatarSpriteString: AvatarBot_1
+    OutfitDataString: dressUp_hair_04;dressUp_accessory_02;dressUp_shirt_01;dressUp_skirt_03;dressUp_face_02;dressUp_shoe_01;dressUp_skin_00;dressUp_hat_01
+  _outfitConfigSO: {fileID: 11400000, guid: 1f664105a1309a1449a375e21030671e, type: 2}

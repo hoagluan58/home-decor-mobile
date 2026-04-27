@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d2e50d8814da5b5c0547f1d5a8ec8, type: 3}
+  m_Name: btr3_sink_1
+  m_EditorClassIdentifier: 
+  Config:
+    Id: btr3_sink_1
+    Size: {x: 3, y: 5, z: 3}
+    FurnitureName: sink
+    Sprite: {fileID: 21300000, guid: 737c10e10eb563f40b31fbaed2f160da, type: 3}
+    Category: 3
+    SubCategory: 9
+    Concept: 14
+    UnlockType: 2
+    Price: 30
+    TrashType: 0
+    FurnitureMoveType: 0
+    CanPlaceOnOthers: 0
+    CanBePlaceOn: 0
+    SurfaceSize: {x: 3, y: 5, z: 0}
+    SurfaceOffset: {x: 0, y: 0, z: 3}
+    BaseDirection: 1
+    CanFlip: 1
+    IsAutoFlip: 0
+    IsWindow: 0
+    IsCarpet: 0
+    IsSpecial: 0
+    IsMessy: 0
+    Prefab: {fileID: 6131670579491775047, guid: 78609e67d0262c242a6ff05986bd3e0b, type: 3}
+    SizeString: 3,5,3
+    SurfaceSizeString: 3,5,0
+    SurfaceOffsetString: 0,0,3
