@@ -40,7 +40,8 @@ Write-Host "Copying build to /docs ..." -ForegroundColor Yellow
 if (Test-Path $DocsPath) {
     Remove-Item -Recurse -Force $DocsPath
 }
-Copy-Item -Recurse $BuildPath $DocsPath
+New-Item -ItemType Directory -Path $DocsPath -Force | Out-Null
+Copy-Item -Recurse "$BuildPath\*" $DocsPath
 
 Write-Host "Done copying." -ForegroundColor Green
 
