@@ -1,0 +1,76 @@
+name: Build and Deploy WebGL to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:   # also allow manual trigger from GitHub UI
+
+# Sets permissions so the workflow can push to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one concurrent deployment at a time
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Unity WebGL
+    runs-on: ubuntu-latest
+
+    steps:
+      # ── 1. Check out the repo ──────────────────────────
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0        # full history (needed by some Unity packages)
+          lfs: true             # pull Git LFS assets if any
+
+      # ── 2. Cache the Unity Library folder ─────────────
+      #       This dramatically speeds up repeat builds.
+      - name: Cache Unity Library
+        uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-WebGL-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-WebGL-
+            Library-
+
+      # ── 3. Build with GameCI ───────────────────────────
+      - name: Build for WebGL
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE:      ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL:        ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD:     ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform:     WebGL
+          buildName:          HomeDecor
+          buildsPath:         build
+          # Emit the exact Unity version from ProjectSettings
+          unityVersion:       2022.3.48f1
+
+      # ── 4. Upload the build artifact ──────────────────
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # The WebGL output is at build/WebGL/HomeDecor
+          path: build/WebGL/HomeDecor
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
