@@ -53,7 +53,7 @@ $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm"
 
 git add docs/
 git commit -m "deploy: WebGL build ($timestamp)"
-git push origin main
+git push origin HEAD:main
 
 Write-Host ""
 Write-Host "========================================" -ForegroundColor Green
