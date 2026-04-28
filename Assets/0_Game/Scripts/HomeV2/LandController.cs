@@ -115,20 +115,20 @@ namespace YoyoDesign
             }
 
             if (UIManager.Instance.IsPointerOverUIObject()) return;
-            if (Input.touchCount <= 0) return;
+            if (!InputHelper.HasInput()) return;
             if (_dragToMoveCamera.IsDragging) return;
 
-            var inputPosition = _isoWorldDetectInput.TouchIsoPosition(0);
-            var touch = Input.GetTouch(0);
+            var inputPosition = InputHelper.GetIsoPosition(_isoWorldDetectInput);
+            var touchPhase = InputHelper.GetTouchPhase();
 
-            if (touch.phase == TouchPhase.Began)
+            if (touchPhase == TouchPhase.Began)
             {
                 _cachePosition = inputPosition;
             }
 
-            if (touch.phase == TouchPhase.Ended)
+            if (touchPhase == TouchPhase.Ended)
             {
-                var endPosition = _isoWorldDetectInput.TouchIsoPosition(0);
+                var endPosition = InputHelper.GetIsoPosition(_isoWorldDetectInput);
                 if (endPosition != _cachePosition) return;
 
                 if (CurLandEditing == null)

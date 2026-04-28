@@ -18,12 +18,12 @@ namespace YoyoDesign
         private void Update()
         {
             if (!_isUpdate) return;
-            if (Input.touchCount <= 0) return;
+            if (!InputHelper.HasInput()) return;
 
-            var inputPosition = _tutorialLand.IsoWorld.TouchIsoPosition(0);
-            var touch = Input.GetTouch(0);
+            var inputPosition = InputHelper.GetIsoPosition(_tutorialLand.IsoWorld);
+            var touchPhase = InputHelper.GetTouchPhase();
 
-            if (touch.phase == TouchPhase.Began)
+            if (touchPhase == TouchPhase.Began)
             {
                 var landOnTouch = LandHelper.GetLandOnTouch(inputPosition, new List<HomeLand> { _tutorialLand });
                 if (landOnTouch != null && landOnTouch == _tutorialLand)

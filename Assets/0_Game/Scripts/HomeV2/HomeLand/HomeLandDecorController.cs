@@ -112,17 +112,18 @@ namespace YoyoDesign
             if (UIManager.Instance.IsPointerOverUIObject())
                 return;
 
-            if (Input.touchCount <= 0)
+            if (!InputHelper.HasInput())
                 return;
 
-            var inputPosition = _homeLand.IsoWorld.TouchIsoPosition(0);
-            var touch = Input.GetTouch(0);
+            var inputPosition = InputHelper.GetIsoPosition(_homeLand.IsoWorld);
+            var touchPhase = InputHelper.GetTouchPhase();
+            var screenPosition = InputHelper.GetScreenPosition();
 
             // Begin select handle
-            if (touch.phase == TouchPhase.Began)
+            if (touchPhase == TouchPhase.Began)
             {
                 var furOnTouch = LandHelper.GetFurnitureOnTouch(inputPosition, _homeLand.Bounds.Min, _homeLand.Bounds.Max, _homeLand.RoomSize, _curDecorFurList, _curFur);
-                _dragOrigin = _camera.ScreenToViewportPoint(touch.position);
+                _dragOrigin = _camera.ScreenToViewportPoint(screenPosition);
 
                 if (furOnTouch == null)
                 {
@@ -153,7 +154,7 @@ namespace YoyoDesign
             if (_curFur != null)
             {
                 // Move camera
-                var touchPosition = touch.position;
+                var touchPosition = screenPosition;
                 if (touchPosition.x <= _edgeOffset || touchPosition.x >= Screen.width - _edgeOffset ||
                     touchPosition.y <= _edgeOffset || touchPosition.y >= Screen.height - _edgeOffset)
                 {
@@ -178,29 +179,29 @@ namespace YoyoDesign
                     cameraTransform.position = pos;
                 }
 
-                if (touch.phase == TouchPhase.Moved)
+                if (touchPhase == TouchPhase.Moved)
                 {
                     OnMoveFurniture(inputPosition, _curFur);
                 }
 
-                if (touch.phase == TouchPhase.Ended)
+                if (touchPhase == TouchPhase.Ended)
                 {
                     OnDropFurniture(_curFur);
                 }
             }
             else
             {
-                if (touch.phase == TouchPhase.Moved)
+                if (touchPhase == TouchPhase.Moved)
                 {
-                    var touchPosition = _camera.ScreenToViewportPoint(touch.position);
-                    var move = (_dragOrigin - touchPosition) * _dragCameraSpeed;
+                    var touchPositionCam = _camera.ScreenToViewportPoint(screenPosition);
+                    var move = (_dragOrigin - touchPositionCam) * _dragCameraSpeed;
 
                     Vector3 targetPosition = _camera.transform.position + move;
                     targetPosition.x = Mathf.Clamp(targetPosition.x, _minCameraBounds.x, _maxCameraBounds.x);
                     targetPosition.y = Mathf.Clamp(targetPosition.y, _minCameraBounds.y, _maxCameraBounds.y);
 
                     _camera.transform.position = targetPosition;
-                    _dragOrigin = _camera.ScreenToViewportPoint(touch.position);
+                    _dragOrigin = _camera.ScreenToViewportPoint(screenPosition);
                 }
             }
         }

@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using IsoTools;
 using JSAM;
 using NFramework;
@@ -78,14 +78,16 @@ namespace YoyoDesign
         {
             if (UIManager.Instance.IsPopupShown()) return;
                 
-            if (Input.touchCount <= 0) return;
-            var inputPosition = _isoWorld.TouchIsoPosition(0);
+            if (!InputHelper.HasInput()) return;
+            var inputPosition = InputHelper.GetIsoPosition(_isoWorld);
+            var touchPhase = InputHelper.GetTouchPhase();
+            var screenPosition = InputHelper.GetScreenPosition();
 
             // Begin select handle
-            if (Input.GetTouch(0).phase == TouchPhase.Began)
+            if (touchPhase == TouchPhase.Began)
             {
                 _touchDownTime = 0;
-                if (IsTouchOnDecorOptionButton(Input.GetTouch(0))) return;
+                if (IsTouchOnDecorOptionButton(screenPosition)) return;
 
                 var furOnTouch = RoomHelper.GetFurnitureOnTouch(inputPosition, _roomBounds, _furnitureList, CurFurniture);
                 
@@ -101,22 +103,22 @@ namespace YoyoDesign
 
             if (CurFurniture == null || _touchDownTime <= Define.TimeLength.MOVE_FUR_DELAY) return;
 
-            if (Input.GetTouch(0).phase == TouchPhase.Moved)
+            if (touchPhase == TouchPhase.Moved)
             {
                 OnMoveFurniture(inputPosition, _curFurniture);
             }
 
-            if (Input.GetTouch(0).phase == TouchPhase.Ended)
+            if (touchPhase == TouchPhase.Ended)
             {
                 OnDropFurniture(_curFurniture);
             }
         }
 
-        public bool IsTouchOnDecorOptionButton(Touch touch)
+        public bool IsTouchOnDecorOptionButton(Vector2 screenPosition)
         {
             var pointerEventData = new PointerEventData(EventSystem.current)
             {
-                position = touch.position
+                position = screenPosition
             };
 
             var raycastResults = new List<RaycastResult>();

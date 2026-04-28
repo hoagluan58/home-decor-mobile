@@ -12,11 +12,11 @@ namespace YoyoDesign
 
         private void Update()
         {
-            if (Input.touchCount <= 0) return;
-            var firstTouch = Input.GetTouch(0);
-            if (firstTouch.phase == TouchPhase.Ended)
+            if (!InputHelper.HasInput()) return;
+            if (InputHelper.GetTouchPhase() == TouchPhase.Ended)
             {
-                _vfx.transform.position = _camera.ScreenToWorldPoint(firstTouch.position);
+                var screenPosition = InputHelper.GetScreenPosition();
+                _vfx.transform.position = _camera.ScreenToWorldPoint(screenPosition);
                 _vfx.RefreshParticles();
                 _vfx.Play();
             }

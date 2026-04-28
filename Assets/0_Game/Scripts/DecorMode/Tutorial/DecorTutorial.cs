@@ -112,12 +112,12 @@ namespace YoyoDesign
         {
             if (_isTutorClickOldBed)
             {
-                if (Input.touchCount > 0)
+                if (InputHelper.HasInput())
                 {
-                    var inputPosition = _isoWorld.TouchIsoPosition(0);
+                    var inputPosition = InputHelper.GetIsoPosition(_isoWorld);
 
                     // Begin select handle
-                    if (Input.GetTouch(0).phase == TouchPhase.Began)
+                    if (InputHelper.GetTouchPhase() == TouchPhase.Began)
                     {
                         if (RoomHelper.GetFurnitureOnTouch(inputPosition, Vector3.one * 14, _allFur, null) != null)
                         {
