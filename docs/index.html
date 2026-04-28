@@ -37,6 +37,82 @@
       overflow: hidden;
     }
 
+    /* ── Loading screen ─────────────────────────────── */
+    #loading-screen {
+      position: fixed; inset: 0;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      background: var(--bg);
+      z-index: 100;
+      transition: opacity 0.6s ease, visibility 0.6s ease;
+    }
+    #loading-screen.hidden { opacity: 0; visibility: hidden; }
+
+    .loader-logo {
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .loader-tagline {
+      color: var(--muted);
+      font-size: clamp(0.85rem, 2.5vw, 1rem);
+      font-weight: 300;
+      margin-bottom: 48px;
+      letter-spacing: 0.05em;
+    }
+
+    .progress-wrap {
+      width: min(320px, 70vw);
+      background: rgba(255,255,255,0.07);
+      border-radius: 100px;
+      overflow: hidden;
+      height: 6px;
+      margin-bottom: 16px;
+    }
+    .progress-bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      border-radius: 100px;
+      transition: width 0.3s ease;
+      box-shadow: 0 0 12px rgba(201,125,232,0.6);
+    }
+    .progress-label {
+      color: var(--muted);
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+    }
+
+    /* animated dots */
+    .dots::after {
+      content: '';
+      animation: dots 1.4s steps(3, end) infinite;
+    }
+    @keyframes dots {
+      0%   { content: ''; }
+      33%  { content: '.'; }
+      66%  { content: '..'; }
+      100% { content: '...'; }
+    }
+
+    /* floating orbs */
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      pointer-events: none;
+      z-index: -1;
+      animation: drift 8s ease-in-out infinite alternate;
+    }
+    .orb1 { width: 400px; height: 400px; background: rgba(201,125,232,0.15); top: -100px; left: -100px; animation-delay: 0s; }
+    .orb2 { width: 300px; height: 300px; background: rgba(242,166,90,0.12); bottom: -80px; right: -80px; animation-delay: -4s; }
+    @keyframes drift { from { transform: translate(0,0); } to { transform: translate(30px, 20px); } }
+
     /* ── Game container ─────────────────────────────── */
     #game-wrap {
       position: fixed; inset: 0;
@@ -79,6 +155,18 @@
 </head>
 <body>
 
+<!-- Loading screen -->
+<div id="loading-screen">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="loader-logo">Home Decor</div>
+  <div class="loader-tagline">Design your dream home</div>
+  <div class="progress-wrap">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+  <div class="progress-label">Loading<span class="dots"></span></div>
+</div>
+
 <!-- Error overlay -->
 <div id="error-overlay">
   <h2>⚠️ Failed to Load</h2>
@@ -105,16 +193,27 @@
   };
 
   var canvas       = document.getElementById("unity-canvas");
-  var errorOverlay = document.getElementById("error-overlay");
+  var loadingScreen = document.getElementById("loading-screen");
+  var progressBar  = document.getElementById("progress-bar");
+  var errorOverlay  = document.getElementById("error-overlay");
 
   var script = document.createElement("script");
   script.src  = loaderUrl;
   script.onerror = function() {
+    loadingScreen.classList.add("hidden");
     errorOverlay.classList.add("visible");
   };
   script.onload = function() {
-    createUnityInstance(canvas, config).catch(function(message) {
+    createUnityInstance(canvas, config, function(progress) {
+      progressBar.style.width = (100 * progress) + "%";
+    }).then(function(unityInstance) {
+      // Small delay so the 100% state is visible before fading out
+      setTimeout(function() {
+        loadingScreen.classList.add("hidden");
+      }, 400);
+    }).catch(function(message) {
       console.error("Unity load error:", message);
+      loadingScreen.classList.add("hidden");
       errorOverlay.classList.add("visible");
     });
   };
